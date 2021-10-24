@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.0)
+add_subdirectory(HttpServer)
+add_subdirectory(UnitTest)
+add_subdirectory(WeatherSpider)
+add_subdirectory(EmailSender)
+add_subdirectory(DataTransform)
+add_subdirectory(SaveToGithub)
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/../../bin) 
