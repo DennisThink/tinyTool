@@ -1,0 +1,2543 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>7.1 用户信息表 T_USER · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="7_2_T_FRIEND_RELATION.html" />
+    
+    
+    <link rel="prev" href="7_0_Summary.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../AboutAuther.html">
+            
+                <a href="../AboutAuther.html">
+            
+                    
+                    作者简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../UpdateLog.html">
+            
+                <a href="../UpdateLog.html">
+            
+                    
+                    更新日志
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第一部分 功能点设计</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../chap1/1_0_Summary.html">
+            
+                <a href="../chap1/1_0_Summary.html">
+            
+                    
+                    1 整体介绍
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../chap1/1_1.html">
+            
+                <a href="../chap1/1_1.html">
+            
+                    
+                    1.1 软件介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../chap1/1_2.html">
+            
+                <a href="../chap1/1_2.html">
+            
+                    
+                    1.2 架构设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../chap1/1_3.html">
+            
+                <a href="../chap1/1_3.html">
+            
+                    
+                    1.3 当前功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../chap1/1_4.html">
+            
+                <a href="../chap1/1_4.html">
+            
+                    
+                    1.4 后续开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../chap2/2_0_Summary.html">
+            
+                <a href="../chap2/2_0_Summary.html">
+            
+                    
+                    2 登录登出功能相关设计
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../chap2/2_1_User_Login.html">
+            
+                <a href="../chap2/2_1_User_Login.html">
+            
+                    
+                    2.1 登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../chap2/2_2_User_Logout.html">
+            
+                <a href="../chap2/2_2_User_Logout.html">
+            
+                    
+                    2.2 退出登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="../chap2/2_3_Forget_Password.html">
+            
+                <a href="../chap2/2_3_Forget_Password.html">
+            
+                    
+                    2.3 忘记密码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="../chap2/2_4_Reset_Password.html">
+            
+                <a href="../chap2/2_4_Reset_Password.html">
+            
+                    
+                    2.4 重置密码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.5" data-path="../chap2/2_5_Register_User.html">
+            
+                <a href="../chap2/2_5_Register_User.html">
+            
+                    
+                    2.5 注册
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6" data-path="../chap2/2_6_UnRegister_User.html">
+            
+                <a href="../chap2/2_6_UnRegister_User.html">
+            
+                    
+                    2.6 注销
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.7" data-path="../chap2/2_7_Verify_Email.html">
+            
+                <a href="../chap2/2_7_Verify_Email.html">
+            
+                    
+                    2.7 邮箱验证
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.8" data-path="../chap2/2_8_Multi_Device_Login.html">
+            
+                <a href="../chap2/2_8_Multi_Device_Login.html">
+            
+                    
+                    2.8 多设备登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.9" data-path="../chap2/2_9_QR_Code_Scan_Login.html">
+            
+                <a href="../chap2/2_9_QR_Code_Scan_Login.html">
+            
+                    
+                    2.9 扫码登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../chap3/3_0_Summary.html">
+            
+                <a href="../chap3/3_0_Summary.html">
+            
+                    
+                    3. 好友功能相关设计
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../chap3/3_1_Add_Friend.html">
+            
+                <a href="../chap3/3_1_Add_Friend.html">
+            
+                    
+                    3.1 添加好友
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../chap3/3_2_Remove_Friend.html">
+            
+                <a href="../chap3/3_2_Remove_Friend.html">
+            
+                    
+                    3.2 删除好友
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../chap3/3_3_Add_To_Black_List.html">
+            
+                <a href="../chap3/3_3_Add_To_Black_List.html">
+            
+                    
+                    3.3 加入黑名单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4" data-path="../chap3/3_4_Remove_From_Black_list.html">
+            
+                <a href="../chap3/3_4_Remove_From_Black_list.html">
+            
+                    
+                    3.4 移出黑名单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5" data-path="../chap3/3_5_Find_Friend.html">
+            
+                <a href="../chap3/3_5_Find_Friend.html">
+            
+                    
+                    3.5 查找好友
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6" data-path="../chap3/3_6_Modify_Friend_Remark.html">
+            
+                <a href="../chap3/3_6_Modify_Friend_Remark.html">
+            
+                    
+                    3.6 修改好友备注
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../chap4/4_0_Summary.html">
+            
+                <a href="../chap4/4_0_Summary.html">
+            
+                    
+                    4. 群组功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.1" data-path="../chap4/4_1_CreateGroup.md">
+            
+                <span>
+            
+                    
+                    4.1 创建群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.2" data-path="../chap4/4_2_Destroy_Group.html">
+            
+                <a href="../chap4/4_2_Destroy_Group.html">
+            
+                    
+                    4.2 解散群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.3" data-path="../chap4/4_3_Add_To_Group.html">
+            
+                <a href="../chap4/4_3_Add_To_Group.html">
+            
+                    
+                    4.3 加入群组
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.3.1" data-path="../chap4/4_3/4_3_1.html">
+            
+                <a href="../chap4/4_3/4_3_1.html">
+            
+                    
+                    4.3.1 用户主动加入群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.3.2" data-path="../chap4/4_3/4_3_2.html">
+            
+                <a href="../chap4/4_3/4_3_2.html">
+            
+                    
+                    4.3.2 邀请用户加入群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../chap5/5_0_Summary.html">
+            
+                <a href="../chap5/5_0_Summary.html">
+            
+                    
+                    5. 好友聊天
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../chap5/5_1/5_1_0_用户发送和接收文本消息.html">
+            
+                <a href="../chap5/5_1/5_1_0_用户发送和接收文本消息.html">
+            
+                    
+                    5.1 发送文本消息
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1.1" data-path="../chap5/5_1/5_1_1_Send_Text_Msg_To_Server.html">
+            
+                <a href="../chap5/5_1/5_1_1_Send_Text_Msg_To_Server.html">
+            
+                    
+                    5.1.1 消息发送方
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.2" data-path="../chap5/5_1/5_1_2_Recv_Text_Msg_From_Server.html">
+            
+                <a href="../chap5/5_1/5_1_2_Recv_Text_Msg_From_Server.html">
+            
+                    
+                    5.1.2 消息接收方
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="../chap5/5_2/5_2_0_用户发送和接收图片消息.html">
+            
+                <a href="../chap5/5_2/5_2_0_用户发送和接收图片消息.html">
+            
+                    
+                    5.2 发送图片消息
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.2.1" data-path="../chap5/5_2/5_2_1_Send_Image_Msg_To_Server.html">
+            
+                <a href="../chap5/5_2/5_2_1_Send_Image_Msg_To_Server.html">
+            
+                    
+                    5.2.1 用户发送图片消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.2" data-path="../chap5/5_2/5_2_1_Send_Image_Msg_To_Server.html">
+            
+                <a href="../chap5/5_2/5_2_1_Send_Image_Msg_To_Server.html">
+            
+                    
+                    5.2.2 用户接收图片消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="../chap5/5_3/5_3_0_好友窗口抖动消息.html">
+            
+                <a href="../chap5/5_3/5_3_0_好友窗口抖动消息.html">
+            
+                    
+                    5.3 发送窗口抖动消息
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.3.1" data-path="../chap5/5_3/5_3_1_Send_Shake_Windows_Msg_To_Server.html">
+            
+                <a href="../chap5/5_3/5_3_1_Send_Shake_Windows_Msg_To_Server.html">
+            
+                    
+                    5.3.1 发送窗口抖动消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3.2" data-path="../chap5/5_3/5_3_2_Recv_Shake_Window_Msg_From_Server.html">
+            
+                <a href="../chap5/5_3/5_3_2_Recv_Shake_Window_Msg_From_Server.html">
+            
+                    
+                    5.3.2 接收窗口抖动消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" data-path="../chap5/5_4/5_4_0收发文件消息.html">
+            
+                <a href="../chap5/5_4/5_4_0收发文件消息.html">
+            
+                    
+                    5.4 发送文件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.4.1" data-path="../chap5/5_4/5_4_1发送在线文件.html">
+            
+                <a href="../chap5/5_4/5_4_1发送在线文件.html">
+            
+                    
+                    5.4.1 发送在线文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4.2" data-path="../chap5/5_4/5_4_2发送离线文件.html">
+            
+                <a href="../chap5/5_4/5_4_2发送离线文件.html">
+            
+                    
+                    5.4.2 发送离线文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5" data-path="../chap5/5_5/5_5_0_撤回消息的收发.html">
+            
+                <a href="../chap5/5_5/5_5_0_撤回消息的收发.html">
+            
+                    
+                    5.5 撤回消息
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.5.1" data-path="../chap5/5_5/5_5_1发送撤回消息.html">
+            
+                <a href="../chap5/5_5/5_5_1发送撤回消息.html">
+            
+                    
+                    5.5.1 消息撤回发送方
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5.2" data-path="../chap5/5_5/5_5_2_响应撤回消息.html">
+            
+                <a href="../chap5/5_5/5_5_2_响应撤回消息.html">
+            
+                    
+                    5.5.2 消息撤回接收方
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../chap6/6_0_Summary.html">
+            
+                <a href="../chap6/6_0_Summary.html">
+            
+                    
+                    6. 群组聊天
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" data-path="../chap6/6_1/6_1_0发送和接收群文本消息.html">
+            
+                <a href="../chap6/6_1/6_1_0发送和接收群文本消息.html">
+            
+                    
+                    6.1 发送文本消息
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1.1" data-path="../chap6/6_1/6_1_1_Send_Group_Text_Msg_To_Server.html">
+            
+                <a href="../chap6/6_1/6_1_1_Send_Group_Text_Msg_To_Server.html">
+            
+                    
+                    6.1.1 消息发送方
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.1.2" data-path="../chap6/6_1/6_1_2_Recv_Group_Text_Msg_From_Server.html">
+            
+                <a href="../chap6/6_1/6_1_2_Recv_Group_Text_Msg_From_Server.html">
+            
+                    
+                    6.1.2 消息接收方
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2" data-path="../chap6/6_2/6_2_0_群聊图片消息.html">
+            
+                <a href="../chap6/6_2/6_2_0_群聊图片消息.html">
+            
+                    
+                    6.2 群聊图片消息
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.2.1" data-path="../chap6/6_2/6_2_1_Send_Group_Image_Msg_To_Server.html">
+            
+                <a href="../chap6/6_2/6_2_1_Send_Group_Image_Msg_To_Server.html">
+            
+                    
+                    6.2.1 群聊发送图片消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2.2" data-path="../chap6/6_2/6_2_2_Recv_Group_Image_Msg_From_Server.html">
+            
+                <a href="../chap6/6_2/6_2_2_Recv_Group_Image_Msg_From_Server.html">
+            
+                    
+                    6.2.2 群聊接收图片消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.3" data-path="../chap6/6_3/6_3_0_群文件功能.html">
+            
+                <a href="../chap6/6_3/6_3_0_群文件功能.html">
+            
+                    
+                    6.3 发送文件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.3.1" data-path="../chap6/6_3/6_3_1_Send_File_Req_Server.html">
+            
+                <a href="../chap6/6_3/6_3_1_Send_File_Req_Server.html">
+            
+                    
+                    6.3.1 上传群文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.3.2" data-path="../chap6/6_3/6_3_2_Send_File_Data_To_Server.html">
+            
+                <a href="../chap6/6_3/6_3_2_Send_File_Data_To_Server.html">
+            
+                    
+                    6.3.2 下载群文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.4" data-path="../chap6/6_4/6_4_0群聊撤回消息.html">
+            
+                <a href="../chap6/6_4/6_4_0群聊撤回消息.html">
+            
+                    
+                    6.4 撤回消息
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.4.1" data-path="../chap6/6_4/6_4_1_Send_Group_Recall_Msg.html">
+            
+                <a href="../chap6/6_4/6_4_1_Send_Group_Recall_Msg.html">
+            
+                    
+                    6.4.1 发送撤回群聊消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.4.2" data-path="../chap6/6_4/6_4_2_Recv_Group_Recall_Msg.html">
+            
+                <a href="../chap6/6_4/6_4_2_Recv_Group_Recall_Msg.html">
+            
+                    
+                    6.4.2 响应撤回群聊消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.5" data-path="../chap6/6_5/6_5_0_Group_At_User.html">
+            
+                <a href="../chap6/6_5/6_5_0_Group_At_User.html">
+            
+                    
+                    6.5 @某个人
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.5.1" data-path="../chap6/6_5/6_5_1_Send_Group_At_User.html">
+            
+                <a href="../chap6/6_5/6_5_1_Send_Group_At_User.html">
+            
+                    
+                    6.5.1 发送@某人的消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.5.2" data-path="../chap6/6_5/6_5_2_Recv_Group_At_User.html">
+            
+                <a href="../chap6/6_5/6_5_2_Recv_Group_At_User.html">
+            
+                    
+                    6.5.2 接收@某人的消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="7_0_Summary.html">
+            
+                <a href="7_0_Summary.html">
+            
+                    
+                    7. 数据库表的设计
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="5.3.1" data-path="7_1_T_USER.html">
+            
+                <a href="7_1_T_USER.html">
+            
+                    
+                    7.1 用户信息表 T_USER
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2" data-path="7_2_T_FRIEND_RELATION.html">
+            
+                <a href="7_2_T_FRIEND_RELATION.html">
+            
+                    
+                    7.2 好友关系表 T_FRIEND_RELATION
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.3" data-path="7_3_T_FRIEND_CHAT_MSG.html">
+            
+                <a href="7_3_T_FRIEND_CHAT_MSG.html">
+            
+                    
+                    7.3 用户聊天消息表 T_FRIEND_CHAT_MSG
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.4" data-path="7_4_T_ADD_FRIEND_MSG.html">
+            
+                <a href="7_4_T_ADD_FRIEND_MSG.html">
+            
+                    
+                    7.4 添加好友消息记录表 T_ADD_FRIEND_MSG
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.5" data-path="7_5_T_USER_TEAM.html">
+            
+                <a href="7_5_T_USER_TEAM.html">
+            
+                    
+                    7.5 用户好友分组关系表 T_USER_TEAM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.6" data-path="7_6_T_GROUP_RELATION.html">
+            
+                <a href="7_6_T_GROUP_RELATION.html">
+            
+                    
+                    7.6 群聊关系表 T_GROUP_RELATION
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.7" data-path="7_7_T_GROUP.html">
+            
+                <a href="7_7_T_GROUP.html">
+            
+                    
+                    7.7 群基本信息表 T_GROUP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.8" data-path="7_8_T_ADD_INVATE_GROUP_RELATION_MSG.html">
+            
+                <a href="7_8_T_ADD_INVATE_GROUP_RELATION_MSG.html">
+            
+                    
+                    7.8 添加或者邀请加入群消息表 T_ADD_INVATE_GROUP_RELATION_MSG
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.9" data-path="7_9_T_GROUP_CHAT_MSG.html">
+            
+                <a href="7_9_T_GROUP_CHAT_MSG.html">
+            
+                    
+                    7.9 群聊消息表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第二部分 服务器代码实现</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../chap8/8_0_Summary.html">
+            
+                <a href="../chap8/8_0_Summary.html">
+            
+                    
+                    8 登录登出功能实现
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="../chap8/8_1_用户登录处理.html">
+            
+                <a href="../chap8/8_1_用户登录处理.html">
+            
+                    
+                    8.1 登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" data-path="../chap8/8_2_用户退出登录处理.html">
+            
+                <a href="../chap8/8_2_用户退出登录处理.html">
+            
+                    
+                    8.2 退出登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3" data-path="../chap8/8_3_用户忘记密码.html">
+            
+                <a href="../chap8/8_3_用户忘记密码.html">
+            
+                    
+                    8.3 忘记密码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.4" data-path="../chap8/8_4_用户重置密码.html">
+            
+                <a href="../chap8/8_4_用户重置密码.html">
+            
+                    
+                    8.4 重置密码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.5" data-path="../chap8/8_5_用户注册.html">
+            
+                <a href="../chap8/8_5_用户注册.html">
+            
+                    
+                    8.5 注册
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.6" data-path="../chap8/8_6_用户注销.html">
+            
+                <a href="../chap8/8_6_用户注销.html">
+            
+                    
+                    8.6 注销
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.7" data-path="../chap8/8_7_邮箱验证.html">
+            
+                <a href="../chap8/8_7_邮箱验证.html">
+            
+                    
+                    8.7 邮箱验证
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.8" data-path="../chap8/8_8_多设备登录.html">
+            
+                <a href="../chap8/8_8_多设备登录.html">
+            
+                    
+                    8.8 多设备登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.9" data-path="../chap8/8_9_扫码登录.html">
+            
+                <a href="../chap8/8_9_扫码登录.html">
+            
+                    
+                    8.9 扫码登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../chap9/9_0_Summary.html">
+            
+                <a href="../chap9/9_0_Summary.html">
+            
+                    
+                    9. 好友功能相关设计
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.1" data-path="../chap9/9_1_添加好友.html">
+            
+                <a href="../chap9/9_1_添加好友.html">
+            
+                    
+                    9.1 添加好友
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2" data-path="../chap9/9_2_删除好友.html">
+            
+                <a href="../chap9/9_2_删除好友.html">
+            
+                    
+                    9.2 删除好友
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3" data-path="../chap9/9_3_加入黑名单.html">
+            
+                <a href="../chap9/9_3_加入黑名单.html">
+            
+                    
+                    9.3 加入黑名单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.4" data-path="../chap9/9_4_移出黑名单.html">
+            
+                <a href="../chap9/9_4_移出黑名单.html">
+            
+                    
+                    9.4 移出黑名单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.5" data-path="../chap9/9_5_查找好友.html">
+            
+                <a href="../chap9/9_5_查找好友.html">
+            
+                    
+                    9.5 查找好友
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.6" data-path="../chap9/9_6_修改好友备注.html">
+            
+                <a href="../chap9/9_6_修改好友备注.html">
+            
+                    
+                    9.6 修改好友备注
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../chap10/10_0_Summary.html">
+            
+                <a href="../chap10/10_0_Summary.html">
+            
+                    
+                    10. 群组功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.2.1" data-path="../chap10/10_1_创建群组.html">
+            
+                <a href="../chap10/10_1_创建群组.html">
+            
+                    
+                    10.1 创建群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.2" data-path="../chap10/10_2_解散群组.html">
+            
+                <a href="../chap10/10_2_解散群组.html">
+            
+                    
+                    10.2 解散群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.3" data-path="../chap10/10_3_加入群组.html">
+            
+                <a href="../chap10/10_3_加入群组.html">
+            
+                    
+                    10.3 加入群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.4" data-path="../chap10/10_4_退出群组.html">
+            
+                <a href="../chap10/10_4_退出群组.html">
+            
+                    
+                    10.4 退出群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.5" data-path="../chap10/10_5_移出群组.html">
+            
+                <a href="../chap10/10_5_移出群组.html">
+            
+                    
+                    10.5 移出群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.6" data-path="../chap10/10_6_转移群主.html">
+            
+                <a href="../chap10/10_6_转移群主.html">
+            
+                    
+                    10.6 转移群主
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.7" data-path="../chap10/10_7_添加管理员.html">
+            
+                <a href="../chap10/10_7_添加管理员.html">
+            
+                    
+                    10.7 添加管理员
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.8" data-path="../chap10/10_8_删除管理员.html">
+            
+                <a href="../chap10/10_8_删除管理员.html">
+            
+                    
+                    10.8 删除管理员
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.9" data-path="../chap10/10_9_查找群组.html">
+            
+                <a href="../chap10/10_9_查找群组.html">
+            
+                    
+                    10.9 查找群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="../chap11/11_0_Summary.html">
+            
+                <a href="../chap11/11_0_Summary.html">
+            
+                    
+                    11. 好友聊天
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.3.1" data-path="../chap11/11_1_好友发送文本消息.html">
+            
+                <a href="../chap11/11_1_好友发送文本消息.html">
+            
+                    
+                    11.1 发送文本消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3.2" data-path="../chap11/11_2_好友发送图片消息.html">
+            
+                <a href="../chap11/11_2_好友发送图片消息.html">
+            
+                    
+                    11.2 发送图片消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3.3" data-path="../chap11/11_3_好友发送窗口抖动消息.html">
+            
+                <a href="../chap11/11_3_好友发送窗口抖动消息.html">
+            
+                    
+                    11.3 发送窗口抖动消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3.4" data-path="../chap11/11_4_好友发送文件.html">
+            
+                <a href="../chap11/11_4_好友发送文件.html">
+            
+                    
+                    11.4 发送文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3.5" data-path="../chap11/11_5_好友撤回消息.html">
+            
+                <a href="../chap11/11_5_好友撤回消息.html">
+            
+                    
+                    11.5 撤回消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="../chap12/12_0_Summary.html">
+            
+                <a href="../chap12/12_0_Summary.html">
+            
+                    
+                    12. 群组聊天
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.4.1" data-path="../chap12/12_1_群组聊天发送文本消息.html">
+            
+                <a href="../chap12/12_1_群组聊天发送文本消息.html">
+            
+                    
+                    12.1 发送文本消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4.2" data-path="../chap12/12_2_群组聊天发送图片消息.html">
+            
+                <a href="../chap12/12_2_群组聊天发送图片消息.html">
+            
+                    
+                    12.2 群聊图片消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4.3" data-path="../chap12/12_3_群组聊天发送文件.html">
+            
+                <a href="../chap12/12_3_群组聊天发送文件.html">
+            
+                    
+                    12.3 发送文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4.4" data-path="../chap12/12_4_群组聊天撤回消息.html">
+            
+                <a href="../chap12/12_4_群组聊天撤回消息.html">
+            
+                    
+                    12.4 撤回消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4.5" data-path="../chap12/12_5_群组聊天AT某个人.html">
+            
+                <a href="../chap12/12_5_群组聊天AT某个人.html">
+            
+                    
+                    12.5 @某个人
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第三部分 客户端代码实现</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../chap13/13_0_Summary.html">
+            
+                <a href="../chap13/13_0_Summary.html">
+            
+                    
+                    13 登录登出功能实现
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1.1" data-path="../chap13/13_1_用户登录处理.md">
+            
+                <span>
+            
+                    
+                    13.1 登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.2" data-path="../chap13/13_2_用户退出登录处理.md">
+            
+                <span>
+            
+                    
+                    13.2 退出登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.3" data-path="../chap13/13_3_用户忘记密码.md">
+            
+                <span>
+            
+                    
+                    13.3 忘记密码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.4" data-path="../chap13/13_4_用户重置密码.md">
+            
+                <span>
+            
+                    
+                    13.4 重置密码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.5" data-path="../chap13/13_5_用户注册.md">
+            
+                <span>
+            
+                    
+                    13.5 注册
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.6" data-path="../chap13/13_6_用户注销.md">
+            
+                <span>
+            
+                    
+                    13.6 注销
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.7" data-path="../chap13/13_7_邮箱验证.md">
+            
+                <span>
+            
+                    
+                    13.7 邮箱验证
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.8" data-path="../chap13/13_8_多设备登录.md">
+            
+                <span>
+            
+                    
+                    13.8 多设备登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.9" data-path="../chap13/13_9_扫码登录.md">
+            
+                <span>
+            
+                    
+                    13.9 扫码登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="../chap14/14_0_Summary.html">
+            
+                <a href="../chap14/14_0_Summary.html">
+            
+                    
+                    14. 好友功能相关设计
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.1.1" data-path="../chap14/14_1_添加好友.html">
+            
+                <a href="../chap14/14_1_添加好友.html">
+            
+                    
+                    14.1 添加好友
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.1.2" data-path="../chap14/14_2_删除好友.html">
+            
+                <a href="../chap14/14_2_删除好友.html">
+            
+                    
+                    14.2 删除好友
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.1.3" data-path="../chap14/14_3_加入黑名单.html">
+            
+                <a href="../chap14/14_3_加入黑名单.html">
+            
+                    
+                    14.3 加入黑名单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.1.4" data-path="../chap14/14_4_移出黑名单.html">
+            
+                <a href="../chap14/14_4_移出黑名单.html">
+            
+                    
+                    14.4 移出黑名单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.1.5" data-path="../chap14/14_5_查找好友.html">
+            
+                <a href="../chap14/14_5_查找好友.html">
+            
+                    
+                    14.5 查找好友
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.1.6" data-path="../chap14/14_6_修改好友备注.html">
+            
+                <a href="../chap14/14_6_修改好友备注.html">
+            
+                    
+                    14.6 修改好友备注
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" data-path="../chap15/15_0_Summary.html">
+            
+                <a href="../chap15/15_0_Summary.html">
+            
+                    
+                    15. 群组功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.2.1" data-path="../chap15/15_1_创建群组.html">
+            
+                <a href="../chap15/15_1_创建群组.html">
+            
+                    
+                    15.1 创建群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.2" data-path="../chap15/15_2_解散群组.html">
+            
+                <a href="../chap15/15_2_解散群组.html">
+            
+                    
+                    15.2 解散群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.3" data-path="../chap15/15_3_加入群组.html">
+            
+                <a href="../chap15/15_3_加入群组.html">
+            
+                    
+                    15.3 加入群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.4" data-path="../chap15/15_4_退出群组.html">
+            
+                <a href="../chap15/15_4_退出群组.html">
+            
+                    
+                    15.4 退出群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.5" data-path="../chap15/15_5_移出群组.html">
+            
+                <a href="../chap15/15_5_移出群组.html">
+            
+                    
+                    15.5 移出群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.6" data-path="../chap15/15_6_转移群主.html">
+            
+                <a href="../chap15/15_6_转移群主.html">
+            
+                    
+                    15.6 转移群主
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.7" data-path="../chap15/15_7_添加管理员.html">
+            
+                <a href="../chap15/15_7_添加管理员.html">
+            
+                    
+                    15.7 添加管理员
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.8" data-path="../chap15/15_8_删除管理员.html">
+            
+                <a href="../chap15/15_8_删除管理员.html">
+            
+                    
+                    15.8 删除管理员
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.9" data-path="../chap15/15_9_查找群组.html">
+            
+                <a href="../chap15/15_9_查找群组.html">
+            
+                    
+                    15.9 查找群组
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3" data-path="../chap16/16_0_Summary.html">
+            
+                <a href="../chap16/16_0_Summary.html">
+            
+                    
+                    16. 好友聊天
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.3.1" data-path="../chap16/16_1_好友发送文本消息.html">
+            
+                <a href="../chap16/16_1_好友发送文本消息.html">
+            
+                    
+                    16.1 发送文本消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3.2" data-path="../chap16/16_2_好友发送图片消息.html">
+            
+                <a href="../chap16/16_2_好友发送图片消息.html">
+            
+                    
+                    16.2 发送图片消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3.3" data-path="../chap16/16_3_好友发送窗口抖动消息.html">
+            
+                <a href="../chap16/16_3_好友发送窗口抖动消息.html">
+            
+                    
+                    16.3 发送窗口抖动消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3.4" data-path="../chap16/16_4_好友发送文件.html">
+            
+                <a href="../chap16/16_4_好友发送文件.html">
+            
+                    
+                    16.4 发送文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3.5" data-path="../chap16/16_5_好友撤回消息.html">
+            
+                <a href="../chap16/16_5_好友撤回消息.html">
+            
+                    
+                    16.5 撤回消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4" data-path="../chap17/17_0_Summary.html">
+            
+                <a href="../chap17/17_0_Summary.html">
+            
+                    
+                    17. 群组聊天
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.4.1" data-path="../chap17/17_1_群组聊天发送文本消息.html">
+            
+                <a href="../chap17/17_1_群组聊天发送文本消息.html">
+            
+                    
+                    17.1 发送文本消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4.2" data-path="../chap17/17_2_群组聊天发送图片消息.html">
+            
+                <a href="../chap17/17_2_群组聊天发送图片消息.html">
+            
+                    
+                    17.2 群聊图片消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4.3" data-path="../chap17/17_3_群组聊天发送文件.html">
+            
+                <a href="../chap17/17_3_群组聊天发送文件.html">
+            
+                    
+                    17.3 发送文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4.4" data-path="../chap17/17_4_群组聊天撤回消息.html">
+            
+                <a href="../chap17/17_4_群组聊天撤回消息.html">
+            
+                    
+                    17.4 撤回消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4.5" data-path="../chap17/17_5_群组聊天AT某个人.html">
+            
+                <a href="../chap17/17_5_群组聊天AT某个人.html">
+            
+                    
+                    17.5 @某个人
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >7.1 用户信息表 T_USER</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="71-&#x7528;&#x6237;&#x4FE1;&#x606F;&#x8868;tuser">7.1 &#x7528;&#x6237;&#x4FE1;&#x606F;&#x8868;T_USER</h1>
+<h2 id="1-&#x8BBE;&#x8BA1;&#x76EE;&#x7684;">1. &#x8BBE;&#x8BA1;&#x76EE;&#x7684;</h2>
+<p>&#x7528;&#x4E8E;&#x8868;&#x793A;&#x7528;&#x6237;&#x7684;&#x57FA;&#x672C;&#x4FE1;&#x606F;&#x4EE5;&#x53CA;&#x4E0A;&#x7EBF;&#x548C;&#x4E0B;&#x7EBF;&#x72B6;&#x6001;&#x3002;</p>
+<h2 id="2-&#x8868;&#x683C;&#x5B57;&#x6BB5;&#x4EE5;&#x53CA;&#x542B;&#x4E49;">2. &#x8868;&#x683C;&#x5B57;&#x6BB5;&#x4EE5;&#x53CA;&#x542B;&#x4E49;</h2>
+<table>
+<thead>
+<tr>
+<th>&#x5B57;&#x6BB5;&#x540D;&#x79F0;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x957F;&#x5EA6;</th>
+<th>&#x4E3B;&#x952E;</th>
+<th>&#x6CE8;&#x91CA;</th>
+<th>&#x5907;&#x6CE8;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F_INDEX</td>
+<td>bigint</td>
+<td></td>
+<td>Y</td>
+<td>&#x81EA;&#x52A8;&#x9012;&#x589E;&#x65E0;&#x7B26;&#x53F7;</td>
+<td>&#x4E3B;&#x952E;</td>
+</tr>
+<tr>
+<td>F_USER_ID</td>
+<td>char</td>
+<td>8</td>
+<td>Y</td>
+<td>&#x7528;&#x6237;&#x7F16;&#x53F7;</td>
+<td>&#x7A0B;&#x5E8F;&#x751F;&#x6210;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x5206;&#x914D;</td>
+</tr>
+<tr>
+<td>F_USER_NAME</td>
+<td>char</td>
+<td>128</td>
+<td>N</td>
+<td>&#x7528;&#x6237;&#x540D;&#x79F0;</td>
+<td>&#x7531;&#x7528;&#x6237;&#x8F93;&#x5165;</td>
+</tr>
+<tr>
+<td>F_PASS_WORD</td>
+<td>char</td>
+<td>128</td>
+<td>N</td>
+<td>&#x7528;&#x6237;&#x5BC6;&#x7801;</td>
+<td>&#x7531;&#x7CFB;&#x7EDF;&#x6839;&#x636E;&#x7528;&#x6237;&#x7684;&#x8F93;&#x5165;&#x548C;<br>&#x7CFB;&#x7EDF;&#x7684;&#x76D0;&#x503C;&#x5171;&#x540C;&#x751F;&#x6210;</td>
+</tr>
+<tr>
+<td>F_ADDRESS</td>
+<td>varchar</td>
+<td>255</td>
+<td>N</td>
+<td>&#x7528;&#x6237;&#x5730;&#x5740;</td>
+<td>&#x7531;&#x7528;&#x6237;&#x8F93;&#x5165;</td>
+</tr>
+<tr>
+<td>F_BIRTH_DATE</td>
+<td>datetime</td>
+<td></td>
+<td>N</td>
+<td></td>
+<td>&#x51FA;&#x751F;&#x65E5;&#x671F;</td>
+</tr>
+<tr>
+<td>F_EMAIL_ADDR</td>
+<td>varchar</td>
+<td>64</td>
+<td>N</td>
+<td>&#x7535;&#x5B50;&#x90AE;&#x7BB1;&#x5730;&#x5740;</td>
+</tr>
+<tr>
+<td>F_NICK_NAME</td>
+<td>varchar</td>
+<td>64</td>
+<td>N</td>
+<td>&#x7528;&#x6237;&#x6635;&#x79F0;</td>
+<td></td>
+</tr>
+<tr>
+<td>F_SIGNATURE</td>
+<td>varchar</td>
+<td>128</td>
+<td>N</td>
+<td>&#x7528;&#x6237;&#x7B7E;&#x540D;</td>
+</tr>
+<tr>
+<td>F_ON_LINE_STATE</td>
+<td>enum</td>
+<td></td>
+<td>N</td>
+<td>&#x5728;&#x7EBF;&#x72B6;&#x6001;</td>
+<td>&apos;ON_LINE&apos;,&apos;OFF_LINE&apos;</td>
+</tr>
+<tr>
+<td>F_CREATE_TIME</td>
+<td>datetime</td>
+<td></td>
+<td>N</td>
+<td>&#x521B;&#x5EFA;&#x65F6;&#x95F4;</td>
+<td></td>
+</tr>
+<tr>
+<td>F_UPDATE_TIME</td>
+<td>datetime</td>
+<td></td>
+<td>N</td>
+<td>&#x66F4;&#x65B0;&#x65F6;&#x95F4;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-sql&#x8BED;&#x53E5;">3. SQL&#x8BED;&#x53E5;</h2>
+<pre><code class="lang-sql"><span class="hljs-keyword">SET</span> <span class="hljs-keyword">NAMES</span> utf8mb4;
+<span class="hljs-keyword">SET</span> FOREIGN_KEY_CHECKS = <span class="hljs-number">0</span>;
+
+<span class="hljs-comment">-- ----------------------------</span>
+<span class="hljs-comment">-- Table structure for t_user</span>
+<span class="hljs-comment">-- ----------------------------</span>
+<span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-keyword">IF</span> <span class="hljs-keyword">EXISTS</span> <span class="hljs-string">`t_user`</span>;
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`t_user`</span>  (
+  <span class="hljs-string">`F_INDEX`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">255</span>) <span class="hljs-keyword">UNSIGNED</span> <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> AUTO_INCREMENT <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;&#x6570;&#x636E;&#x8BB0;&#x5F55;&#x7D22;&#x5F15;&#xFF0C;&#x81EA;&#x589E;&apos;</span>,
+  <span class="hljs-string">`F_USER_ID`</span> <span class="hljs-built_in">char</span>(<span class="hljs-number">8</span>) <span class="hljs-built_in">CHARACTER</span> <span class="hljs-keyword">SET</span> utf8mb4 <span class="hljs-keyword">COLLATE</span> utf8mb4_bin <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-string">&apos;00000000&apos;</span> <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;&#x7528;&#x6237;ID&apos;</span>,
+  <span class="hljs-string">`F_USER_NAME`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">64</span>) <span class="hljs-built_in">CHARACTER</span> <span class="hljs-keyword">SET</span> utf8mb4 <span class="hljs-keyword">COLLATE</span> utf8mb4_bin <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-string">&apos;11111111&apos;</span> <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;&#x7528;&#x6237;&#x540D;&apos;</span>,
+  <span class="hljs-string">`F_PASS_WORD`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">128</span>) <span class="hljs-built_in">CHARACTER</span> <span class="hljs-keyword">SET</span> utf8mb4 <span class="hljs-keyword">COLLATE</span> utf8mb4_bin <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-string">&apos;11111111&apos;</span> <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;&#x7528;&#x6237;&#x5BC6;&#x7801;&apos;</span>,
+  <span class="hljs-string">`F_ADDRESS`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-built_in">CHARACTER</span> <span class="hljs-keyword">SET</span> utf8mb4 <span class="hljs-keyword">COLLATE</span> utf8mb4_bin <span class="hljs-keyword">DEFAULT</span> <span class="hljs-string">&apos;&#x5317;&#x4EAC;&#x5E02;&#x660C;&#x5E73;&#x533A;&#x5B9A;&#x6CD7;&#x8DEF;&apos;</span> <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;&#x7528;&#x6237;&#x4F4F;&#x5740;&apos;</span>,
+  <span class="hljs-string">`F_BIRTH_DATE`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">64</span>) <span class="hljs-built_in">CHARACTER</span> <span class="hljs-keyword">SET</span> utf8mb4 <span class="hljs-keyword">COLLATE</span> utf8mb4_bin <span class="hljs-keyword">DEFAULT</span> <span class="hljs-string">&apos;19901010&apos;</span> <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;&#x51FA;&#x751F;&#x65E5;&#x671F;&apos;</span>,
+  <span class="hljs-string">`F_EMAIL_ADDR`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">64</span>) <span class="hljs-built_in">CHARACTER</span> <span class="hljs-keyword">SET</span> utf8mb4 <span class="hljs-keyword">COLLATE</span> utf8mb4_bin <span class="hljs-keyword">DEFAULT</span> <span class="hljs-string">&apos;test@dennisthink.com&apos;</span> <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;&#x7535;&#x5B50;&#x90AE;&#x7BB1;&#x5730;&#x5740;&apos;</span>,
+  <span class="hljs-string">`F_NICK_NAME`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">64</span>) <span class="hljs-built_in">CHARACTER</span> <span class="hljs-keyword">SET</span> utf8mb4 <span class="hljs-keyword">COLLATE</span> utf8mb4_bin <span class="hljs-keyword">DEFAULT</span> <span class="hljs-string">&apos;DennisThink.com&apos;</span> <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;&#x7528;&#x6237;&#x6635;&#x79F0;&apos;</span>,
+  <span class="hljs-string">`F_CREATE_TIME`</span> <span class="hljs-keyword">timestamp</span>(<span class="hljs-number">0</span>) <span class="hljs-keyword">DEFAULT</span> <span class="hljs-literal">NULL</span> <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;&#x521B;&#x5EFA;&#x65F6;&#x95F4;&apos;</span>,
+  <span class="hljs-string">`F_UPDATE_TIME`</span> <span class="hljs-keyword">timestamp</span>(<span class="hljs-number">0</span>) <span class="hljs-keyword">DEFAULT</span> <span class="hljs-literal">NULL</span> <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;&#x6700;&#x540E;&#x66F4;&#x65B0;&#x65F6;&#x95F4;&apos;</span>,
+  <span class="hljs-string">`F_SIGNATURE`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-built_in">CHARACTER</span> <span class="hljs-keyword">SET</span> utf8mb4 <span class="hljs-keyword">COLLATE</span> utf8mb4_bin <span class="hljs-keyword">DEFAULT</span> <span class="hljs-string">&apos;&#x4E2A;&#x4EBA;&#x535A;&#x5BA2; https://www.dennisthink.com/&apos;</span> <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;&#x7528;&#x6237;&#x7B7E;&#x540D;&apos;</span>,
+  <span class="hljs-string">`F_ON_LINE_STATE`</span> enum(<span class="hljs-string">&apos;ON_LINE&apos;</span>,<span class="hljs-string">&apos;OFF_LINE&apos;</span>) <span class="hljs-built_in">CHARACTER</span> <span class="hljs-keyword">SET</span> utf8mb4 <span class="hljs-keyword">COLLATE</span> utf8mb4_bin <span class="hljs-keyword">DEFAULT</span> <span class="hljs-string">&apos;OFF_LINE&apos;</span> <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;&#x7528;&#x6237;&#x5728;&#x7EBF;&#x72B6;&#x6001;&#xFF0C;&#x5206;&#x4E3A;&#x5728;&#x7EBF;&#x548C;&#x79BB;&#x7EBF;&apos;</span>,
+  <span class="hljs-string">`F_FACE_ID`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-keyword">DEFAULT</span> <span class="hljs-number">2</span> <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;&#x5934;&#x50CF;&#x7F16;&#x53F7;&apos;</span>,
+  <span class="hljs-string">`F_GENDER`</span> enum(<span class="hljs-string">&apos;MALE&apos;</span>,<span class="hljs-string">&apos;FEMALE&apos;</span>,<span class="hljs-string">&apos;UN_KNOWN&apos;</span>) <span class="hljs-built_in">CHARACTER</span> <span class="hljs-keyword">SET</span> utf8mb4 <span class="hljs-keyword">COLLATE</span> utf8mb4_bin <span class="hljs-keyword">DEFAULT</span> <span class="hljs-string">&apos;UN_KNOWN&apos;</span> <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;&#x7528;&#x6237;&#x6027;&#x522B;&apos;</span>,
+  PRIMARY <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`F_INDEX`</span>, <span class="hljs-string">`F_USER_ID`</span>) <span class="hljs-keyword">USING</span> BTREE,
+  <span class="hljs-keyword">UNIQUE</span> <span class="hljs-keyword">INDEX</span> <span class="hljs-string">`F_USER_NAME_INDEX`</span>(<span class="hljs-string">`F_USER_NAME`</span>) <span class="hljs-keyword">USING</span> BTREE <span class="hljs-keyword">COMMENT</span> <span class="hljs-string">&apos;&#x7528;&#x6237;&#x540D;&#x505A;&#x552F;&#x4E00;&#x7D22;&#x5F15;&apos;</span>
+) <span class="hljs-keyword">ENGINE</span> = <span class="hljs-keyword">InnoDB</span> AUTO_INCREMENT = <span class="hljs-number">2022</span> <span class="hljs-built_in">CHARACTER</span> <span class="hljs-keyword">SET</span> = utf8mb4 <span class="hljs-keyword">COLLATE</span> = utf8mb4_bin ROW_FORMAT = Dynamic;
+
+<span class="hljs-keyword">SET</span> FOREIGN_KEY_CHECKS = <span class="hljs-number">1</span>;
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="7_0_Summary.html" class="navigation navigation-prev " aria-label="Previous page: 7. 数据库表的设计">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="7_2_T_FRIEND_RELATION.html" class="navigation navigation-next " aria-label="Next page: 7.2 好友关系表 T_FRIEND_RELATION">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"7.1 用户信息表 T_USER","level":"5.3.1","depth":2,"next":{"title":"7.2 好友关系表 T_FRIEND_RELATION","level":"5.3.2","depth":2,"path":"chap7/7_2_T_FRIEND_RELATION.md","ref":"./chap7/7_2_T_FRIEND_RELATION.md","articles":[]},"previous":{"title":"7. 数据库表的设计","level":"5.3","depth":1,"path":"chap7/7_0_Summary.md","ref":"./chap7/7_0_Summary.md","articles":[{"title":"7.1 用户信息表 T_USER","level":"5.3.1","depth":2,"path":"chap7/7_1_T_USER.md","ref":"./chap7/7_1_T_USER.md","articles":[]},{"title":"7.2 好友关系表 T_FRIEND_RELATION","level":"5.3.2","depth":2,"path":"chap7/7_2_T_FRIEND_RELATION.md","ref":"./chap7/7_2_T_FRIEND_RELATION.md","articles":[]},{"title":"7.3 用户聊天消息表 T_FRIEND_CHAT_MSG","level":"5.3.3","depth":2,"path":"chap7/7_3_T_FRIEND_CHAT_MSG.md","ref":"./chap7/7_3_T_FRIEND_CHAT_MSG.md","articles":[]},{"title":"7.4 添加好友消息记录表 T_ADD_FRIEND_MSG","level":"5.3.4","depth":2,"path":"chap7/7_4_T_ADD_FRIEND_MSG.md","ref":"./chap7/7_4_T_ADD_FRIEND_MSG.md","articles":[]},{"title":"7.5 用户好友分组关系表 T_USER_TEAM","level":"5.3.5","depth":2,"path":"chap7/7_5_T_USER_TEAM.md","ref":"./chap7/7_5_T_USER_TEAM.md","articles":[]},{"title":"7.6 群聊关系表 T_GROUP_RELATION","level":"5.3.6","depth":2,"path":"chap7/7_6_T_GROUP_RELATION.md","ref":"./chap7/7_6_T_GROUP_RELATION.md","articles":[]},{"title":"7.7 群基本信息表 T_GROUP","level":"5.3.7","depth":2,"path":"chap7/7_7_T_GROUP.md","ref":"./chap7/7_7_T_GROUP.md","articles":[]},{"title":"7.8 添加或者邀请加入群消息表 T_ADD_INVATE_GROUP_RELATION_MSG","level":"5.3.8","depth":2,"path":"chap7/7_8_T_ADD_INVATE_GROUP_RELATION_MSG.md","ref":"./chap7/7_8_T_ADD_INVATE_GROUP_RELATION_MSG.md","articles":[]},{"title":"7.9 群聊消息表","level":"5.3.9","depth":2,"path":"chap7/7_9_T_GROUP_CHAT_MSG.md","ref":"./chap7/7_9_T_GROUP_CHAT_MSG.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":16,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":20,"left":20,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chap7/7_1_T_USER.md","mtime":"2019-10-21T03:22:33.023Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-01T08:14:31.392Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

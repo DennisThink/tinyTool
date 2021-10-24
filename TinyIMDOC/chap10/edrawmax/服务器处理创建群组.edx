@@ -1,0 +1,3305 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Document Version="7.8" DocGuid="8BAE5CC1-0F1A-4bd4-8DB3-7665BABA8BED">
+	<DocProps>
+		<DocConfig>
+			<ConLineJumpCode>7</ConLineJumpCode>
+			<ConLineJumpStyle>1</ConLineJumpStyle>
+			<ConLineJumpDirX>1</ConLineJumpDirX>
+			<ConLineJumpDirY>2</ConLineJumpDirY>
+			<ConLineJumpSize>6</ConLineJumpSize>
+			<DefaultQuickFmt>22</DefaultQuickFmt>
+			<SolMask>0</SolMask>
+			<ShowGrid>TRUE</ShowGrid>
+			<ShowRuler>TRUE</ShowRuler>
+			<ShowGuideline>TRUE</ShowGuideline>
+			<ShowPageBreak>TRUE</ShowPageBreak>
+			<AutoPageSize>TRUE</AutoPageSize>
+			<PageScale>1</PageScale>
+			<PageMarginLeft>5</PageMarginLeft>
+			<PageMarginRight>5</PageMarginRight>
+			<PageMarginTop>5</PageMarginTop>
+			<PageMarginBottom>5</PageMarginBottom>
+			<PageMarginUnit>10001</PageMarginUnit>
+			<OrgAutoLayout>FALSE</OrgAutoLayout>
+			<mmAutoLayout>TRUE</mmAutoLayout>
+			<mmLockCon>TRUE</mmLockCon>
+		</DocConfig>
+		<ActivePageIndex>0</ActivePageIndex>
+		<Stencils>
+			<Stencil>\library\BasicShape\backgrounds.edt</Stencil>
+			<Stencil>\library\BasicShape\borders.edt</Stencil>
+			<Stencil>\library\BasicShape\Titles.edt</Stencil>
+			<Stencil>\library\BasicShape\callouts.edt</Stencil>
+			<Stencil>\library\BasicShape\arrow.edt</Stencil>
+			<Stencil>\library\Flowchart\basicflow.edt</Stencil>
+		</Stencils>
+		<PrintConfig>
+			<Name>A4 sheet, 210 mm x 297 mm</Name>
+			<Portrait>FALSE</Portrait>
+			<ShowGrid>FALSE</ShowGrid>
+			<ShowGuideline>FALSE</ShowGuideline>
+			<FittoSheet>FALSE</FittoSheet>
+			<Zoom>1</Zoom>
+			<SheetNumX>1</SheetNumX>
+			<SheetNumY>1</SheetNumY>
+			<AutoFitPage>TRUE</AutoFitPage>
+		</PrintConfig>
+		<Theme Name="General" PreDefine="TRUE" Default="TRUE">
+			<ThemeColor Name="General" ID="4" PreDefine="TRUE" White="#FFFFFFFF" Black="#FF000000" Background="#FF1F497D" Fill="#FF9BBB59" Line="#FF969696" Accent1="#FF4F81BD" Accent2="#FFC0504D" Accent3="#FF8064A2" Accent4="#FF4BACC6" Accent5="#FFF79646" Shadow="#33000000" Text="#FF000000"/>
+			<ThemeEffect Name="General" PreDefine="TRUE" Variant="2">
+				<ShapeFormat QuickMask="-1">
+					<FillFormat Type="Solid">
+						<Color Value="#FFFFFFFF" ThemeColor="1"/>
+					</FillFormat>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>4</BeginArrowSize>
+						<EndArrowID>0</EndArrowID>
+						<EndArrowSize>4</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF6D6D6D" ThemeColor="5" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="0"/>
+					</EffectFormat>
+				</ShapeFormat>
+				<ShapeFormat QuickMask="-1">
+					<FillFormat Type="Gradient" GradientType="Linear" StopNum="2" Direction="90">
+						<Stop>
+							<Color Value="#FFFBFBFB" ThemeColor="5" Tint="95"/>
+							<Offset>0</Offset>
+						</Stop>
+						<Stop>
+							<Color Value="#FFEFEFEF" ThemeColor="5" Tint="80"/>
+							<Offset>1</Offset>
+						</Stop>
+					</FillFormat>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>4</BeginArrowSize>
+						<EndArrowID>0</EndArrowID>
+						<EndArrowSize>4</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF6D6D6D" ThemeColor="5" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="14" Scale="1" OffsetX="2" OffsetY="2" Angle="0" Blur="0">
+							<Color Value="#14000000"/>
+						</Shadow>
+					</EffectFormat>
+				</ShapeFormat>
+				<ShapeFormat QuickMask="-1">
+					<FillFormat Type="Solid">
+						<Color Value="#FF969696" ThemeColor="5"/>
+					</FillFormat>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>4</BeginArrowSize>
+						<EndArrowID>0</EndArrowID>
+						<EndArrowSize>4</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF969696" ThemeColor="5"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="0"/>
+					</EffectFormat>
+				</ShapeFormat>
+				<ShapeFormat QuickMask="-1">
+					<FillFormat Type="Gradient" GradientType="Linear" StopNum="2" Direction="90">
+						<Stop>
+							<Color Value="#FFFBFBFB" ThemeColor="5" Tint="95"/>
+							<Offset>0</Offset>
+						</Stop>
+						<Stop>
+							<Color Value="#FFEFEFEF" ThemeColor="5" Tint="80"/>
+							<Offset>1</Offset>
+						</Stop>
+					</FillFormat>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>4</BeginArrowSize>
+						<EndArrowID>0</EndArrowID>
+						<EndArrowSize>4</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF6D6D6D" ThemeColor="5" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="14" Scale="1" OffsetX="2" OffsetY="2" Angle="0" Blur="0">
+							<Color Value="#14000000"/>
+						</Shadow>
+					</EffectFormat>
+				</ShapeFormat>
+				<ShapeFormat QuickMask="-1">
+					<FillFormat Type="Gradient" GradientType="Linear" StopNum="2" Direction="90">
+						<Stop>
+							<Color Value="#FFB2B2B2" ThemeColor="5" Tint="20"/>
+							<Offset>0</Offset>
+						</Stop>
+						<Stop>
+							<Color Value="#FF969696" ThemeColor="5"/>
+							<Offset>1</Offset>
+						</Stop>
+					</FillFormat>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>4</BeginArrowSize>
+						<EndArrowID>0</EndArrowID>
+						<EndArrowSize>4</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF969696" ThemeColor="5"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="14" Scale="1" OffsetX="2" OffsetY="2" Angle="0" Blur="0">
+							<Color Value="#14000000"/>
+						</Shadow>
+					</EffectFormat>
+				</ShapeFormat>
+				<ShapeFormat QuickMask="-1">
+					<FillFormat Type="Gradient" GradientType="Linear" StopNum="2" Direction="90">
+						<Stop>
+							<Color Value="#FF969696" ThemeColor="5"/>
+							<Offset>0</Offset>
+						</Stop>
+						<Stop>
+							<Color Value="#FF838383" ThemeColor="5" Shade="25"/>
+							<Offset>1</Offset>
+						</Stop>
+					</FillFormat>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>4</BeginArrowSize>
+						<EndArrowID>0</EndArrowID>
+						<EndArrowSize>4</EndArrowSize>
+						<LineFill Type="Gradient" GradientType="Linear" StopNum="2" Direction="90">
+							<Stop>
+								<Color Value="#FF969696" ThemeColor="5"/>
+								<Offset>0</Offset>
+							</Stop>
+							<Stop>
+								<Color Value="#FF838383" ThemeColor="5" Shade="25"/>
+								<Offset>1</Offset>
+							</Stop>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="14" Scale="1" OffsetX="2" OffsetY="2" Angle="0" Blur="0">
+							<Color Value="#14000000"/>
+						</Shadow>
+					</EffectFormat>
+				</ShapeFormat>
+				<ShapeFormat QuickMask="-1">
+					<FillFormat/>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>3</BeginArrowSize>
+						<EndArrowID>5</EndArrowID>
+						<EndArrowSize>3</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF6D6D6D" ThemeColor="5" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="0"/>
+					</EffectFormat>
+				</ShapeFormat>
+			</ThemeEffect>
+			<ThemeText Name="General" PreDefine="TRUE" Variant="2">
+				<TextFormat>
+					<TextFormatMask>0</TextFormatMask>
+					<FontFamily>宋体</FontFamily>
+					<FontWeight>400</FontWeight>
+					<FontHeight>10</FontHeight>
+					<FontItalic>FALSE</FontItalic>
+					<FontUnderline>FALSE</FontUnderline>
+					<FontStrikeout>FALSE</FontStrikeout>
+					<AlignHorizontal>Center</AlignHorizontal>
+					<AlignVertical>Middle</AlignVertical>
+					<Color Value="#FF000000"/>
+					<FontOffset>0</FontOffset>
+					<FontBackColor>#FFFEFD</FontBackColor>
+					<FontBullet>0</FontBullet>
+					<LeftOffset>0</LeftOffset>
+					<StartIndent>50</StartIndent>
+					<RightIndent>50</RightIndent>
+					<LineSpace>20</LineSpace>
+					<SpaceBefore>0</SpaceBefore>
+					<SpaceAfter>0</SpaceAfter>
+				</TextFormat>
+				<FontSchemeLst>
+					<FontScheme FontName="宋体" FontSize="10" Flag="0">
+						<Color Value="#FF303030"/>
+						<BackgndColor Value="#FFFFFEFD"/>
+					</FontScheme>
+					<FontScheme FontName="宋体" FontSize="10" Flag="0">
+						<Color Value="#FF303030"/>
+						<BackgndColor Value="#FFFFFEFD"/>
+					</FontScheme>
+					<FontScheme FontName="宋体" FontSize="10" Flag="0">
+						<Color Value="#FFFFFFFF"/>
+						<BackgndColor Value="#FFFFFEFD"/>
+					</FontScheme>
+					<FontScheme FontName="宋体" FontSize="10" Flag="0">
+						<Color Value="#FF303030"/>
+						<BackgndColor Value="#FFFFFEFD"/>
+					</FontScheme>
+					<FontScheme FontName="宋体" FontSize="10" Flag="0">
+						<Color Value="#FFFFFFFF"/>
+						<BackgndColor Value="#FFFFFEFD"/>
+					</FontScheme>
+					<FontScheme FontName="宋体" FontSize="10" Flag="0">
+						<Color Value="#FFFFFFFF"/>
+						<BackgndColor Value="#FFFFFEFD"/>
+					</FontScheme>
+					<FontScheme FontName="宋体" FontSize="10" Flag="0">
+						<Color Value="#FF303030"/>
+						<BackgndColor Value="#FFFFFEFF"/>
+					</FontScheme>
+				</FontSchemeLst>
+			</ThemeText>
+		</Theme>
+		<WaterMark Type="None"/>
+	</DocProps>
+	<Page Type="Page" Name="页-1" Zoom="1" ZoomUI="1" Unit="mm" PrePaper="13" ID="203">
+		<PageProps mmTheme="2">
+			<Width>1188</Width>
+			<Height>840</Height>
+			<CustWidth>297</CustWidth>
+			<CustHeight>210</CustHeight>
+			<PageBreakWidth>1188</PageBreakWidth>
+			<PageBreakHeight>840</PageBreakHeight>
+			<PageBreakLeft>0</PageBreakLeft>
+			<PageBreakTop>0</PageBreakTop>
+			<PageBreakRight>1</PageBreakRight>
+			<PageBreakBottom>1</PageBreakBottom>
+			<ScrollX>413</ScrollX>
+			<ScrollY>536</ScrollY>
+			<BackColor>#FFFFFFFF</BackColor>
+			<GridColor>#FFB4B4B4</GridColor>
+			<GridSpace>1</GridSpace>
+			<GridRealSpace>20</GridRealSpace>
+			<GridSubGrid>2</GridSubGrid>
+			<GridStyle>3</GridStyle>
+		</PageProps>
+		<Layout>
+			<Solution>501</Solution>
+			<NumbLevel>0</NumbLevel>
+			<mmMajor>20</mmMajor>
+			<mmMinor>10</mmMinor>
+			<OrgVerDist>16</OrgVerDist>
+			<OrgHorDist>16</OrgHorDist>
+			<OrgHorAss>8</OrgHorAss>
+			<HpScale>50</HpScale>
+			<HpPrecistion>0.0</HpPrecistion>
+			<HpDispMode>0</HpDispMode>
+		</Layout>
+		<Layer Type="Layer" NameU="Background" Name="Background" Background="TRUE" ID="204"/>
+		<Layer Type="Layer" NameU="图层-1" Name="图层-1" ID="205">
+			<Shape Type="Shape" NameU="Start or Terminator" Name="开始或结束" ID="209">
+				<Transform>
+					<Width>53.6001</Width>
+					<Height>24</Height>
+					<Angle>0</Angle>
+					<GPinX>351.072</GPinX>
+					<GPinY>65.6</GPinY>
+					<LocPinX F="Width*0.52" R="0.52" M="1">27.8721</LocPinX>
+					<LocPinY F="Height*-0.1" R="-0.1" M="2">-2.4</LocPinY>
+					<FlipX>0</FlipX>
+					<FlipY>0</FlipY>
+				</Transform>
+				<CPoints>
+					<CPoint Name="Pt1" ID="1" Type="0">
+						<X>0</X>
+						<Y F="Height*0.5" R="0.5" M="2">12</Y>
+					</CPoint>
+					<CPoint Name="Pt2" ID="2" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">26.8001</X>
+						<Y>0</Y>
+					</CPoint>
+					<CPoint Name="Pt3" ID="3" Type="0">
+						<X F="Width*1" R="1" M="1">53.6001</X>
+						<Y F="Height*0.5" R="0.5" M="2">12</Y>
+					</CPoint>
+					<CPoint Name="Pt4" ID="4" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">26.8001</X>
+						<Y F="Height*1" R="1" M="2">24</Y>
+					</CPoint>
+				</CPoints>
+				<Numbers>
+					<Number>
+						<X F="MIN(Height/2,Width/4)">12</X>
+						<Y F="Numbers.X1*0.4477">5.3724</Y>
+						<A>0</A>
+						<B>0</B>
+					</Number>
+				</Numbers>
+				<Misc>
+					<ObjectType>2</ObjectType>
+				</Misc>
+				<Events/>
+				<Properties>
+					<Prop Name="Cost" ID="1">
+						<Type>4</Type>
+						<Format U="STR">#,###0.00 &quot;USD&quot;</Format>
+						<Value>0</Value>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>费用</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+					<Prop Name="Duration" ID="2">
+						<Type>3</Type>
+						<Format U="STR">[h]:[mm] &quot;eh:em&quot;</Format>
+						<Value>0</Value>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>持续时间</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+					<Prop Name="Resources" ID="3">
+						<Type>0</Type>
+						<Format U="STR">@</Format>
+						<Value Unit="STR"/>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>资源</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+				</Properties>
+				<ShapeFormat QuickMask="23">
+					<FillFormat Type="Gradient" GradientType="Linear" StopNum="2" Direction="90">
+						<Stop>
+							<Color Value="#FFFAFBFC" ThemeColor="6" Tint="95"/>
+							<Offset>0</Offset>
+						</Stop>
+						<Stop>
+							<Color Value="#FFE9EDF4" ThemeColor="6" Tint="80"/>
+							<Offset>1</Offset>
+						</Stop>
+					</FillFormat>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>4</BeginArrowSize>
+						<EndArrowID>0</EndArrowID>
+						<EndArrowSize>4</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="14" Scale="1" OffsetX="2" OffsetY="2" Angle="0" Blur="0">
+							<Color Value="#14000000"/>
+						</Shadow>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset134 \'cb\'ce\'cc\'e5;}}&#x0D;&#x0A;{\colortbl ;\red0\green0\blue0;}&#x0D;&#x0A;\viewkind4\uc1\pard\li50\ri50\sl240\slmult1\qc\cf1\lang2052\f0\fs20\'bf\'aa\'ca\'bc\par&#x0D;&#x0A;}" ExtendMode="0" X="323" Y="72" Width="54" Height="16">
+						<TextFormat>
+							<TextFormatMask>16384</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF000000" ThemeColor="2"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="Width*1" R="1" M="1">53.6001</Width>
+							<Height F="Height*1" R="1" M="2">24</Height>
+							<Angle>0</Angle>
+							<GPinX F="Width*0.5" R="0.5" M="1">26.8001</GPinX>
+							<GPinY F="Height*0.5" R="0.5" M="2">12</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">26.8001</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">12</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>0</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>1</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X F="Numbers.X1">12</X>
+							<Y F="Height*1" R="1" M="2">24</Y>
+						</MoveTo>
+						<LineTo JointType="0">
+							<X F="Width-Geometry1.X1">41.6001</X>
+							<Y F="Height*1" R="1" M="2">24</Y>
+						</LineTo>
+						<CurveTo JointType="2">
+							<X F="Width*1" R="1" M="1">53.6001</X>
+							<Y F="Height*0.5" R="0.5" M="2">12</Y>
+							<A F="Width-Numbers.Y1">48.2277</A>
+							<B F="Height*1" R="1" M="2">24</B>
+							<C F="Width*1" R="1" M="1">53.6001</C>
+							<D F="Height-Numbers.Y1">18.6276</D>
+						</CurveTo>
+						<CurveTo JointType="0">
+							<X F="Geometry1.X2">41.6001</X>
+							<Y>0</Y>
+							<A F="Width*1" R="1" M="1">53.6001</A>
+							<B F="Numbers.Y1">5.3724</B>
+							<C F="Width-Numbers.Y1">48.2277</C>
+							<D>0</D>
+						</CurveTo>
+						<LineTo JointType="0">
+							<X F="Geometry1.X1">12</X>
+							<Y>0</Y>
+						</LineTo>
+						<CurveTo JointType="2">
+							<X>0</X>
+							<Y F="Height*0.5" R="0.5" M="2">12</Y>
+							<A F="Numbers.Y1">5.3724</A>
+							<B>0</B>
+							<C>0</C>
+							<D F="Numbers.Y1">5.3724</D>
+						</CurveTo>
+						<CurveTo JointType="0">
+							<X F="Geometry1.X1">12</X>
+							<Y F="Height*1" R="1" M="2">24</Y>
+							<A>0</A>
+							<B F="Height-Numbers.Y1">18.6276</B>
+							<C F="Numbers.Y1">5.3724</C>
+							<D F="Height*1" R="1" M="2">24</D>
+						</CurveTo>
+					</Geometry>
+				</Geometries>
+			</Shape>
+			<Shape Type="Shape" NameU="Start or Terminator" Name="开始或结束" ID="213">
+				<Transform>
+					<Width>60.0006</Width>
+					<Height>24.0002</Height>
+					<Angle>0</Angle>
+					<GPinX>350</GPinX>
+					<GPinY>618</GPinY>
+					<LocPinX F="Width*0.5" R="0.5" M="1">30.0003</LocPinX>
+					<LocPinY F="Height*0.5" R="0.5" M="2">12.0001</LocPinY>
+					<FlipX>0</FlipX>
+					<FlipY>0</FlipY>
+				</Transform>
+				<CPoints>
+					<CPoint Name="Pt1" ID="1" Type="0">
+						<X>0</X>
+						<Y F="Height*0.5" R="0.5" M="2">12.0001</Y>
+					</CPoint>
+					<CPoint Name="Pt2" ID="2" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">30.0003</X>
+						<Y>0</Y>
+					</CPoint>
+					<CPoint Name="Pt3" ID="3" Type="0">
+						<X F="Width*1" R="1" M="1">60.0006</X>
+						<Y F="Height*0.5" R="0.5" M="2">12.0001</Y>
+					</CPoint>
+					<CPoint Name="Pt4" ID="4" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">30.0003</X>
+						<Y F="Height*1" R="1" M="2">24.0002</Y>
+					</CPoint>
+				</CPoints>
+				<Numbers>
+					<Number>
+						<X F="MIN(Height/2,Width/4)">12.0001</X>
+						<Y F="Numbers.X1*0.4477">5.37245</Y>
+						<A>0</A>
+						<B>0</B>
+					</Number>
+				</Numbers>
+				<Misc>
+					<ObjectType>2</ObjectType>
+				</Misc>
+				<Events/>
+				<Properties>
+					<Prop Name="Cost" ID="1">
+						<Type>4</Type>
+						<Format U="STR">#,###0.00 &quot;USD&quot;</Format>
+						<Value>0</Value>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>费用</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+					<Prop Name="Duration" ID="2">
+						<Type>3</Type>
+						<Format U="STR">[h]:[mm] &quot;eh:em&quot;</Format>
+						<Value>0</Value>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>持续时间</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+					<Prop Name="Resources" ID="3">
+						<Type>0</Type>
+						<Format U="STR">@</Format>
+						<Value Unit="STR"/>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>资源</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+				</Properties>
+				<ShapeFormat QuickMask="23">
+					<FillFormat Type="Gradient" GradientType="Linear" StopNum="2" Direction="90">
+						<Stop>
+							<Color Value="#FFFAFBFC" ThemeColor="6" Tint="95"/>
+							<Offset>0</Offset>
+						</Stop>
+						<Stop>
+							<Color Value="#FFE9EDF4" ThemeColor="6" Tint="80"/>
+							<Offset>1</Offset>
+						</Stop>
+					</FillFormat>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>4</BeginArrowSize>
+						<EndArrowID>0</EndArrowID>
+						<EndArrowSize>4</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="14" Scale="1" OffsetX="2" OffsetY="2" Angle="0" Blur="0">
+							<Color Value="#14000000"/>
+						</Shadow>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset134 \'cb\'ce\'cc\'e5;}}&#x0D;&#x0A;{\colortbl ;\red0\green0\blue0;}&#x0D;&#x0A;\viewkind4\uc1\pard\li50\ri50\sl240\slmult1\qc\cf1\lang2052\f0\fs20\'bd\'e1\'ca\'f8\par&#x0D;&#x0A;}" ExtendMode="0" X="320" Y="610" Width="60" Height="16">
+						<TextFormat>
+							<TextFormatMask>16384</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF000000" ThemeColor="2"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="Width*1" R="1" M="1">60.0006</Width>
+							<Height F="Height*1" R="1" M="2">24.0002</Height>
+							<Angle>0</Angle>
+							<GPinX F="Width*0.5" R="0.5" M="1">30.0003</GPinX>
+							<GPinY F="Height*0.5" R="0.5" M="2">12.0001</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">30.0003</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">12.0001</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>0</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>1</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X F="Numbers.X1">12.0001</X>
+							<Y F="Height*1" R="1" M="2">24.0002</Y>
+						</MoveTo>
+						<LineTo JointType="0">
+							<X F="Width-Geometry1.X1">48.0005</X>
+							<Y F="Height*1" R="1" M="2">24.0002</Y>
+						</LineTo>
+						<CurveTo JointType="2">
+							<X F="Width*1" R="1" M="1">60.0006</X>
+							<Y F="Height*0.5" R="0.5" M="2">12.0001</Y>
+							<A F="Width-Numbers.Y1">54.6281</A>
+							<B F="Height*1" R="1" M="2">24.0002</B>
+							<C F="Width*1" R="1" M="1">60.0006</C>
+							<D F="Height-Numbers.Y1">18.6278</D>
+						</CurveTo>
+						<CurveTo JointType="0">
+							<X F="Geometry1.X2">48.0005</X>
+							<Y>0</Y>
+							<A F="Width*1" R="1" M="1">60.0006</A>
+							<B F="Numbers.Y1">5.37245</B>
+							<C F="Width-Numbers.Y1">54.6281</C>
+							<D>0</D>
+						</CurveTo>
+						<LineTo JointType="0">
+							<X F="Geometry1.X1">12.0001</X>
+							<Y>0</Y>
+						</LineTo>
+						<CurveTo JointType="2">
+							<X>0</X>
+							<Y F="Height*0.5" R="0.5" M="2">12.0001</Y>
+							<A F="Numbers.Y1">5.37245</A>
+							<B>0</B>
+							<C>0</C>
+							<D F="Numbers.Y1">5.37245</D>
+						</CurveTo>
+						<CurveTo JointType="0">
+							<X F="Geometry1.X1">12.0001</X>
+							<Y F="Height*1" R="1" M="2">24.0002</Y>
+							<A>0</A>
+							<B F="Height-Numbers.Y1">18.6278</B>
+							<C F="Numbers.Y1">5.37245</C>
+							<D F="Height*1" R="1" M="2">24.0002</D>
+						</CurveTo>
+					</Geometry>
+				</Geometries>
+			</Shape>
+			<Shape Type="Shape" NameU="Process" Name="流程" ID="128">
+				<Transform>
+					<Width>87.6</Width>
+					<Height>60</Height>
+					<Angle>0</Angle>
+					<GPinX>483.8</GPinX>
+					<GPinY>522</GPinY>
+					<LocPinX F="Width*0.5" R="0.5" M="1">43.8</LocPinX>
+					<LocPinY F="Height*0.5" R="0.5" M="2">30</LocPinY>
+					<FlipX>0</FlipX>
+					<FlipY>0</FlipY>
+				</Transform>
+				<CPoints>
+					<CPoint Name="Pt1" ID="1" Type="0">
+						<X>0</X>
+						<Y F="Height*0.5" R="0.5" M="2">30</Y>
+					</CPoint>
+					<CPoint Name="Pt2" ID="2" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">43.8</X>
+						<Y>0</Y>
+					</CPoint>
+					<CPoint Name="Pt3" ID="3" Type="0">
+						<X F="Width*1" R="1" M="1">87.6</X>
+						<Y F="Height*0.5" R="0.5" M="2">30</Y>
+					</CPoint>
+					<CPoint Name="Pt4" ID="4" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">43.8</X>
+						<Y F="Height*1" R="1" M="2">60</Y>
+					</CPoint>
+				</CPoints>
+				<Misc>
+					<ObjectType>2</ObjectType>
+				</Misc>
+				<Events/>
+				<Properties>
+					<Prop Name="Cost" ID="1">
+						<Type>4</Type>
+						<Format U="STR">#,###0.00 &quot;USD&quot;</Format>
+						<Value>0</Value>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>费用</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+					<Prop Name="Duration" ID="2">
+						<Type>3</Type>
+						<Format U="STR">[h]:[mm] &quot;eh:em&quot;</Format>
+						<Value>0</Value>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>持续时间</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+					<Prop Name="Resources" ID="3">
+						<Type>0</Type>
+						<Format U="STR">@</Format>
+						<Value Unit="STR"/>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>资源</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+				</Properties>
+				<ShapeFormat QuickMask="23">
+					<FillFormat Type="Gradient" GradientType="Linear" StopNum="2" Direction="90">
+						<Stop>
+							<Color Value="#FFFAFBFC" ThemeColor="6" Tint="95"/>
+							<Offset>0</Offset>
+						</Stop>
+						<Stop>
+							<Color Value="#FFE9EDF4" ThemeColor="6" Tint="80"/>
+							<Offset>1</Offset>
+						</Stop>
+					</FillFormat>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>4</BeginArrowSize>
+						<EndArrowID>0</EndArrowID>
+						<EndArrowSize>4</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="14" Scale="1" OffsetX="2" OffsetY="2" Angle="0" Blur="0">
+							<Color Value="#14000000"/>
+						</Shadow>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset134 \'cb\'ce\'cc\'e5;}}&#x0D;&#x0A;{\colortbl ;\red0\green0\blue0;}&#x0D;&#x0A;\viewkind4\uc1\pard\li50\ri50\sl240\slmult1\qc\cf1\lang2052\f0\fs20\'b7\'a2\'cb\'cd\'b4\'b4\'bd\'a8\'b3\'c9\'b9\'a6\'b5\'bd\'bf\'cd\'bb\'a7\'b6\'cb\par&#x0D;&#x0A;}" ExtendMode="0" X="440" Y="505" Width="88" Height="34">
+						<TextFormat>
+							<TextFormatMask>16384</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF000000" ThemeColor="2"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="Width*1" R="1" M="1">87.6</Width>
+							<Height F="Height*1" R="1" M="2">60</Height>
+							<Angle>0</Angle>
+							<GPinX F="Width*0.5" R="0.5" M="1">43.8</GPinX>
+							<GPinY F="Height*0.5" R="0.5" M="2">30</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">43.8</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">30</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>0</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>1</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X F="Width">87.6</X>
+							<Y F="Height">60</Y>
+						</MoveTo>
+						<LineTo JointType="0">
+							<X F="Width*1" R="1" M="1">87.6</X>
+							<Y F="Height*0" R="0" M="2">0</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X F="Width*0" R="0" M="1">0</X>
+							<Y F="Height*0" R="0" M="2">0</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X F="Width*0" R="0" M="1">0</X>
+							<Y F="Height*1" R="1" M="2">60</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X F="Width*1" R="1" M="1">87.6</X>
+							<Y F="Height*1" R="1" M="2">60</Y>
+						</LineTo>
+					</Geometry>
+				</Geometries>
+			</Shape>
+			<Shape Type="Shape" NameU="Process" Name="流程" ID="129">
+				<Transform>
+					<Width>87.6</Width>
+					<Height>60</Height>
+					<Angle>0</Angle>
+					<GPinX>483.8</GPinX>
+					<GPinY>434</GPinY>
+					<LocPinX F="Width*0.5" R="0.5" M="1">43.8</LocPinX>
+					<LocPinY F="Height*0.5" R="0.5" M="2">30</LocPinY>
+					<FlipX>0</FlipX>
+					<FlipY>0</FlipY>
+				</Transform>
+				<CPoints>
+					<CPoint Name="Pt1" ID="1" Type="0">
+						<X>0</X>
+						<Y F="Height*0.5" R="0.5" M="2">30</Y>
+					</CPoint>
+					<CPoint Name="Pt2" ID="2" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">43.8</X>
+						<Y>0</Y>
+					</CPoint>
+					<CPoint Name="Pt3" ID="3" Type="0">
+						<X F="Width*1" R="1" M="1">87.6</X>
+						<Y F="Height*0.5" R="0.5" M="2">30</Y>
+					</CPoint>
+					<CPoint Name="Pt4" ID="4" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">43.8</X>
+						<Y F="Height*1" R="1" M="2">60</Y>
+					</CPoint>
+				</CPoints>
+				<Misc>
+					<ObjectType>2</ObjectType>
+				</Misc>
+				<Events/>
+				<Properties>
+					<Prop Name="Cost" ID="1">
+						<Type>4</Type>
+						<Format U="STR">#,###0.00 &quot;USD&quot;</Format>
+						<Value>0</Value>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>费用</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+					<Prop Name="Duration" ID="2">
+						<Type>3</Type>
+						<Format U="STR">[h]:[mm] &quot;eh:em&quot;</Format>
+						<Value>0</Value>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>持续时间</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+					<Prop Name="Resources" ID="3">
+						<Type>0</Type>
+						<Format U="STR">@</Format>
+						<Value Unit="STR"/>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>资源</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+				</Properties>
+				<ShapeFormat QuickMask="23">
+					<FillFormat Type="Gradient" GradientType="Linear" StopNum="2" Direction="90">
+						<Stop>
+							<Color Value="#FFFAFBFC" ThemeColor="6" Tint="95"/>
+							<Offset>0</Offset>
+						</Stop>
+						<Stop>
+							<Color Value="#FFE9EDF4" ThemeColor="6" Tint="80"/>
+							<Offset>1</Offset>
+						</Stop>
+					</FillFormat>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>4</BeginArrowSize>
+						<EndArrowID>0</EndArrowID>
+						<EndArrowSize>4</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="14" Scale="1" OffsetX="2" OffsetY="2" Angle="0" Blur="0">
+							<Color Value="#14000000"/>
+						</Shadow>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset134 \'cb\'ce\'cc\'e5;}}&#x0D;&#x0A;{\colortbl ;\red0\green0\blue0;}&#x0D;&#x0A;\viewkind4\uc1\pard\li50\ri50\sl240\slmult1\qc\cf1\highlight0\lang2052\f0\fs20\'d3\'c3\'bb\'a7\'ba\'cd\'c8\'ba\'d7\'e9\'b9\'d8\'cf\'b5\'b2\'e5\'c8\'eb\'ca\'fd\'be\'dd\'bf\'e2\par&#x0D;&#x0A;}" ExtendMode="0" X="440" Y="417" Width="88" Height="34">
+						<TextFormat>
+							<TextFormatMask>16384</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF000000" ThemeColor="2"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="Width*1" R="1" M="1">87.6</Width>
+							<Height F="Height*1" R="1" M="2">60</Height>
+							<Angle>0</Angle>
+							<GPinX F="Width*0.5" R="0.5" M="1">43.8</GPinX>
+							<GPinY F="Height*0.5" R="0.5" M="2">30</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">43.8</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">30</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>0</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>1</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X F="Width">87.6</X>
+							<Y F="Height">60</Y>
+						</MoveTo>
+						<LineTo JointType="0">
+							<X F="Width*1" R="1" M="1">87.6</X>
+							<Y F="Height*0" R="0" M="2">0</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X F="Width*0" R="0" M="1">0</X>
+							<Y F="Height*0" R="0" M="2">0</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X F="Width*0" R="0" M="1">0</X>
+							<Y F="Height*1" R="1" M="2">60</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X F="Width*1" R="1" M="1">87.6</X>
+							<Y F="Height*1" R="1" M="2">60</Y>
+						</LineTo>
+					</Geometry>
+				</Geometries>
+			</Shape>
+			<Shape Type="ConnectLine" NameU="ConnectLine" Name="ConnectLine" ID="130">
+				<ConPoints>
+					<BeginX F="PNTX(Parent.LOCPNT(Shape129.PARPNT(Shape129.CPoints.X4,Shape129.CPoints.Y4)))">483.8</BeginX>
+					<BeginY F="PNTY(Parent.LOCPNT(Shape129.PARPNT(Shape129.CPoints.X4,Shape129.CPoints.Y4)))">464</BeginY>
+					<EndX F="AUTOENDPNT(BeginTag,EndTag)">483.8</EndX>
+					<EndY F="AUTOENDPNT(BeginTag,EndTag)">492</EndY>
+				</ConPoints>
+				<Transform>
+					<Width F="EndX-BeginX">0</Width>
+					<Height F="EndY-BeginY">28</Height>
+					<Angle F="GUARD(0)">0</Angle>
+					<GPinX F="(BeginX+EndX)*0.5">483.8</GPinX>
+					<GPinY F="(BeginY+EndY)*0.5">478</GPinY>
+					<LocPinX F="Width*0.5" R="0.5" M="1">0</LocPinX>
+					<LocPinY F="Height*0.5" R="0.5" M="2">14</LocPinY>
+					<FlipX F="GUARD(FALSE)">0</FlipX>
+					<FlipY F="GUARD(FALSE)">0</FlipY>
+					<BeginTag F="Shape129.XTrans">1</BeginTag>
+					<EndTag F="Shape128.XTrans">1</EndTag>
+				</Transform>
+				<Controls>
+					<Control Name="TxtPos1" ID="1">
+						<X>0</X>
+						<Y>20</Y>
+						<DynX F="Controls.TxtPos1.X">0</DynX>
+						<DynY F="Controls.TxtPos1.Y">20</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T1),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+					<Control Name="TxtPos2" ID="2">
+						<X>0</X>
+						<Y>14</Y>
+						<DynX F="Controls.TxtPos2.X">0</DynX>
+						<DynY F="Controls.TxtPos2.Y">14</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T2),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+					<Control Name="TxtPos3" ID="3">
+						<X>0</X>
+						<Y>8</Y>
+						<DynX F="Controls.TxtPos3.X">0</DynX>
+						<DynY F="Controls.TxtPos3.Y">8</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T3),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+				</Controls>
+				<Misc/>
+				<Events/>
+				<ShapeFormat QuickMask="44">
+					<FillFormat/>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>3</BeginArrowSize>
+						<EndArrowID>5</EndArrowID>
+						<EndArrowSize>3</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="0"/>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="" ExtendMode="2" X="467" Y="476" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T1))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T1))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos1.X)">0</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos1.Y)">20</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+					<Text ID="2" Name="T2" Rtf="" ExtendMode="2" X="467" Y="470" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T2))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T2))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos2.X)">0</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos2.Y)">14</GPinY>
+							<LocPinX F="Text.T2.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T2.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+					<Text ID="3" Name="T3" Rtf="" ExtendMode="2" X="467" Y="464" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T3))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T3))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos3.X)">0</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos3.Y)">8</GPinY>
+							<LocPinX F="Text.T3.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T3.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>1</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>0</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X>0</X>
+							<Y>0</Y>
+						</MoveTo>
+						<LineTo JointType="0">
+							<X>0</X>
+							<Y>28</Y>
+						</LineTo>
+					</Geometry>
+				</Geometries>
+				<ShapeLayout>
+					<ConLineJumpStyle>0</ConLineJumpStyle>
+					<ConLineFixCode>0</ConLineFixCode>
+					<ConLineJumpCode>0</ConLineJumpCode>
+					<ConLineJumpDirX>0</ConLineJumpDirX>
+					<ConLineJumpDirY>0</ConLineJumpDirY>
+					<ConLineType>2</ConLineType>
+				</ShapeLayout>
+			</Shape>
+			<Shape Type="ConnectLine" NameU="ConnectLine" Name="ConnectLine" ID="131">
+				<ConPoints>
+					<BeginX F="PNTX(Parent.LOCPNT(Shape128.PARPNT(Shape128.CPoints.X4,Shape128.CPoints.Y4)))">483.8</BeginX>
+					<BeginY F="PNTY(Parent.LOCPNT(Shape128.PARPNT(Shape128.CPoints.X4,Shape128.CPoints.Y4)))">552</BeginY>
+					<EndX F="PNTX(Parent.LOCPNT(Shape213.PARPNT(Shape213.CPoints.X2,Shape213.CPoints.Y2)))">350</EndX>
+					<EndY F="PNTY(Parent.LOCPNT(Shape213.PARPNT(Shape213.CPoints.X2,Shape213.CPoints.Y2)))">606</EndY>
+				</ConPoints>
+				<Transform>
+					<Width F="EndX-BeginX">-133.8</Width>
+					<Height F="EndY-BeginY">53.9999</Height>
+					<Angle F="GUARD(0)">0</Angle>
+					<GPinX F="(BeginX+EndX)*0.5">416.9</GPinX>
+					<GPinY F="(BeginY+EndY)*0.5">579</GPinY>
+					<LocPinX F="Width*0.5" R="0.5" M="1">-66.9</LocPinX>
+					<LocPinY F="Height*0.5" R="0.5" M="2">26.9999</LocPinY>
+					<FlipX F="GUARD(FALSE)">0</FlipX>
+					<FlipY F="GUARD(FALSE)">0</FlipY>
+					<BeginTag F="Shape128.XTrans">1</BeginTag>
+					<EndTag F="Shape213.XTrans">1</EndTag>
+				</Transform>
+				<Controls>
+					<Control Name="TxtPos1" ID="1">
+						<X>0</X>
+						<Y>20</Y>
+						<DynX F="Controls.TxtPos1.X">0</DynX>
+						<DynY F="Controls.TxtPos1.Y">20</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T1),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+					<Control Name="TxtPos2" ID="2">
+						<X>-71.9001</X>
+						<Y>21.9999</Y>
+						<DynX F="Controls.TxtPos2.X">-71.9001</DynX>
+						<DynY F="Controls.TxtPos2.Y">21.9999</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T2),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+					<Control Name="TxtPos3" ID="3">
+						<X>-133.8</X>
+						<Y>33.9999</Y>
+						<DynX F="Controls.TxtPos3.X">-133.8</DynX>
+						<DynY F="Controls.TxtPos3.Y">33.9999</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T3),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+				</Controls>
+				<Misc/>
+				<Events/>
+				<ShapeFormat QuickMask="44">
+					<FillFormat/>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>3</BeginArrowSize>
+						<EndArrowID>5</EndArrowID>
+						<EndArrowSize>3</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="0"/>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="" ExtendMode="2" X="467" Y="564" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T1))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T1))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos1.X)">0</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos1.Y)">20</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+					<Text ID="2" Name="T2" Rtf="" ExtendMode="2" X="395" Y="566" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T2))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T2))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos2.X)">-71.9001</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos2.Y)">21.9999</GPinY>
+							<LocPinX F="Text.T2.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T2.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+					<Text ID="3" Name="T3" Rtf="" ExtendMode="2" X="333" Y="578" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T3))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T3))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos3.X)">-133.8</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos3.Y)">33.9999</GPinY>
+							<LocPinX F="Text.T3.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T3.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>1</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>0</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X>0</X>
+							<Y>0</Y>
+						</MoveTo>
+						<LineTo JointType="0">
+							<X>0</X>
+							<Y>21.9999</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X>-133.8</X>
+							<Y>21.9999</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X>-133.8</X>
+							<Y>53.9999</Y>
+						</LineTo>
+					</Geometry>
+				</Geometries>
+				<ShapeLayout>
+					<ConLineJumpStyle>0</ConLineJumpStyle>
+					<ConLineFixCode>0</ConLineFixCode>
+					<ConLineJumpCode>0</ConLineJumpCode>
+					<ConLineJumpDirX>0</ConLineJumpDirX>
+					<ConLineJumpDirY>0</ConLineJumpDirY>
+					<ConLineType>2</ConLineType>
+				</ShapeLayout>
+			</Shape>
+			<Shape Type="Shape" NameU="Decision" Name="判定" ID="109">
+				<Transform>
+					<Width>150</Width>
+					<Height>90</Height>
+					<Angle>0</Angle>
+					<GPinX>350</GPinX>
+					<GPinY>195</GPinY>
+					<LocPinX F="Width*0.5" R="0.5" M="1">75</LocPinX>
+					<LocPinY F="Height*0.5" R="0.5" M="2">45</LocPinY>
+					<FlipX>0</FlipX>
+					<FlipY>0</FlipY>
+				</Transform>
+				<CPoints>
+					<CPoint Name="Pt1" ID="1" Type="0">
+						<X>0</X>
+						<Y F="Height*0.5" R="0.5" M="2">45</Y>
+					</CPoint>
+					<CPoint Name="Pt2" ID="2" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">75</X>
+						<Y>0</Y>
+					</CPoint>
+					<CPoint Name="Pt3" ID="3" Type="0">
+						<X F="Width*1" R="1" M="1">150</X>
+						<Y F="Height*0.5" R="0.5" M="2">45</Y>
+					</CPoint>
+					<CPoint Name="Pt4" ID="4" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">75</X>
+						<Y F="Height*1" R="1" M="2">90</Y>
+					</CPoint>
+				</CPoints>
+				<Misc>
+					<ObjectType>2</ObjectType>
+				</Misc>
+				<Events/>
+				<Properties>
+					<Prop Name="Cost" ID="1">
+						<Type>4</Type>
+						<Format U="STR">#,###0.00 &quot;USD&quot;</Format>
+						<Value>0</Value>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>费用</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+					<Prop Name="Duration" ID="2">
+						<Type>3</Type>
+						<Format U="STR">[h]:[mm] &quot;eh:em&quot;</Format>
+						<Value>0</Value>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>持续时间</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+					<Prop Name="Resources" ID="3">
+						<Type>0</Type>
+						<Format U="STR">@</Format>
+						<Value Unit="STR"/>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>资源</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+				</Properties>
+				<ShapeFormat QuickMask="23">
+					<FillFormat Type="Gradient" GradientType="Linear" StopNum="2" Direction="90">
+						<Stop>
+							<Color Value="#FFFAFBFC" ThemeColor="6" Tint="95"/>
+							<Offset>0</Offset>
+						</Stop>
+						<Stop>
+							<Color Value="#FFE9EDF4" ThemeColor="6" Tint="80"/>
+							<Offset>1</Offset>
+						</Stop>
+					</FillFormat>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>4</BeginArrowSize>
+						<EndArrowID>0</EndArrowID>
+						<EndArrowSize>4</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="14" Scale="1" OffsetX="2" OffsetY="2" Angle="0" Blur="0">
+							<Color Value="#14000000"/>
+						</Shadow>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset134 \'cb\'ce\'cc\'e5;}}&#x0D;&#x0A;{\colortbl ;\red48\green48\blue48;}&#x0D;&#x0A;\viewkind4\uc1\pard\li50\ri50\sl240\slmult1\qc\cf1\lang2052\f0\fs20\'c7\'eb\'c7\'f3\'ca\'fd\'be\'dd\par&#x0D;&#x0A;\'ca\'c7\'b7\'f1\'b7\'fb\'ba\'cf\'d2\'aa\'c7\'f3\par&#x0D;&#x0A;}" ExtendMode="0" X="275" Y="178" Width="150" Height="34">
+						<TextFormat>
+							<TextFormatMask>0</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="Width*1" R="1" M="1">150</Width>
+							<Height F="Height*1" R="1" M="2">90</Height>
+							<Angle>0</Angle>
+							<GPinX F="Width*0.5" R="0.5" M="1">75</GPinX>
+							<GPinY F="Height*0.5" R="0.5" M="2">45</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">75</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">45</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>0</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>1</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X F="Width*0.5" R="0.5" M="1">75</X>
+							<Y F="Height*1" R="1" M="2">90</Y>
+						</MoveTo>
+						<LineTo JointType="0">
+							<X F="Width*1" R="1" M="1">150</X>
+							<Y F="Height*0.5" R="0.5" M="2">45</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X F="Width*0.5" R="0.5" M="1">75</X>
+							<Y F="Height*0" R="0" M="2">0</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X F="Width*0" R="0" M="1">0</X>
+							<Y F="Height*0.5" R="0.5" M="2">45</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X F="Width*0.5" R="0.5" M="1">75</X>
+							<Y F="Height*1" R="1" M="2">90</Y>
+						</LineTo>
+					</Geometry>
+				</Geometries>
+			</Shape>
+			<Shape Type="Shape" NameU="Process" Name="流程" ID="110">
+				<Transform>
+					<Width>87.6</Width>
+					<Height>60</Height>
+					<Angle>0</Angle>
+					<GPinX>483.8</GPinX>
+					<GPinY>354</GPinY>
+					<LocPinX F="Width*0.5" R="0.5" M="1">43.8</LocPinX>
+					<LocPinY F="Height*0.5" R="0.5" M="2">30</LocPinY>
+					<FlipX>0</FlipX>
+					<FlipY>0</FlipY>
+				</Transform>
+				<CPoints>
+					<CPoint Name="Pt1" ID="1" Type="0">
+						<X>0</X>
+						<Y F="Height*0.5" R="0.5" M="2">30</Y>
+					</CPoint>
+					<CPoint Name="Pt2" ID="2" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">43.8</X>
+						<Y>0</Y>
+					</CPoint>
+					<CPoint Name="Pt3" ID="3" Type="0">
+						<X F="Width*1" R="1" M="1">87.6</X>
+						<Y F="Height*0.5" R="0.5" M="2">30</Y>
+					</CPoint>
+					<CPoint Name="Pt4" ID="4" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">43.8</X>
+						<Y F="Height*1" R="1" M="2">60</Y>
+					</CPoint>
+				</CPoints>
+				<Misc>
+					<ObjectType>2</ObjectType>
+				</Misc>
+				<Events/>
+				<Properties>
+					<Prop Name="Cost" ID="1">
+						<Type>4</Type>
+						<Format U="STR">#,###0.00 &quot;USD&quot;</Format>
+						<Value>0</Value>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>费用</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+					<Prop Name="Duration" ID="2">
+						<Type>3</Type>
+						<Format U="STR">[h]:[mm] &quot;eh:em&quot;</Format>
+						<Value>0</Value>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>持续时间</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+					<Prop Name="Resources" ID="3">
+						<Type>0</Type>
+						<Format U="STR">@</Format>
+						<Value Unit="STR"/>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>资源</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+				</Properties>
+				<ShapeFormat QuickMask="23">
+					<FillFormat Type="Gradient" GradientType="Linear" StopNum="2" Direction="90">
+						<Stop>
+							<Color Value="#FFFAFBFC" ThemeColor="6" Tint="95"/>
+							<Offset>0</Offset>
+						</Stop>
+						<Stop>
+							<Color Value="#FFE9EDF4" ThemeColor="6" Tint="80"/>
+							<Offset>1</Offset>
+						</Stop>
+					</FillFormat>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>4</BeginArrowSize>
+						<EndArrowID>0</EndArrowID>
+						<EndArrowSize>4</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="14" Scale="1" OffsetX="2" OffsetY="2" Angle="0" Blur="0">
+							<Color Value="#14000000"/>
+						</Shadow>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset134 \'cb\'ce\'cc\'e5;}}&#x0D;&#x0A;{\colortbl ;\red0\green0\blue0;}&#x0D;&#x0A;\viewkind4\uc1\pard\li50\ri50\sl240\slmult1\qc\cf1\lang2052\f0\fs20\'c8\'ba\'d7\'e9\'bb\'f9\'b1\'be\'d0\'c5\'cf\'a2\par&#x0D;&#x0A;\'b2\'e5\'c8\'eb\'ca\'fd\'be\'dd\'bf\'e2\par&#x0D;&#x0A;}" ExtendMode="0" X="440" Y="337" Width="88" Height="34">
+						<TextFormat>
+							<TextFormatMask>16384</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF000000" ThemeColor="2"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="Width*1" R="1" M="1">87.6</Width>
+							<Height F="Height*1" R="1" M="2">60</Height>
+							<Angle>0</Angle>
+							<GPinX F="Width*0.5" R="0.5" M="1">43.8</GPinX>
+							<GPinY F="Height*0.5" R="0.5" M="2">30</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">43.8</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">30</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>0</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>1</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X F="Width">87.6</X>
+							<Y F="Height">60</Y>
+						</MoveTo>
+						<LineTo JointType="0">
+							<X F="Width*1" R="1" M="1">87.6</X>
+							<Y F="Height*0" R="0" M="2">0</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X F="Width*0" R="0" M="1">0</X>
+							<Y F="Height*0" R="0" M="2">0</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X F="Width*0" R="0" M="1">0</X>
+							<Y F="Height*1" R="1" M="2">60</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X F="Width*1" R="1" M="1">87.6</X>
+							<Y F="Height*1" R="1" M="2">60</Y>
+						</LineTo>
+					</Geometry>
+				</Geometries>
+			</Shape>
+			<Shape Type="Shape" NameU="Process" Name="流程" ID="111">
+				<Transform>
+					<Width>87.6</Width>
+					<Height>60</Height>
+					<Angle>0</Angle>
+					<GPinX>231.2</GPinX>
+					<GPinY>450</GPinY>
+					<LocPinX F="Width*0.5" R="0.5" M="1">43.8</LocPinX>
+					<LocPinY F="Height*0.5" R="0.5" M="2">30</LocPinY>
+					<FlipX>0</FlipX>
+					<FlipY>0</FlipY>
+				</Transform>
+				<CPoints>
+					<CPoint Name="Pt1" ID="1" Type="0">
+						<X>0</X>
+						<Y F="Height*0.5" R="0.5" M="2">30</Y>
+					</CPoint>
+					<CPoint Name="Pt2" ID="2" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">43.8</X>
+						<Y>0</Y>
+					</CPoint>
+					<CPoint Name="Pt3" ID="3" Type="0">
+						<X F="Width*1" R="1" M="1">87.6</X>
+						<Y F="Height*0.5" R="0.5" M="2">30</Y>
+					</CPoint>
+					<CPoint Name="Pt4" ID="4" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">43.8</X>
+						<Y F="Height*1" R="1" M="2">60</Y>
+					</CPoint>
+				</CPoints>
+				<Misc>
+					<ObjectType>2</ObjectType>
+				</Misc>
+				<Events/>
+				<Properties>
+					<Prop Name="Cost" ID="1">
+						<Type>4</Type>
+						<Format U="STR">#,###0.00 &quot;USD&quot;</Format>
+						<Value>0</Value>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>费用</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+					<Prop Name="Duration" ID="2">
+						<Type>3</Type>
+						<Format U="STR">[h]:[mm] &quot;eh:em&quot;</Format>
+						<Value>0</Value>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>持续时间</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+					<Prop Name="Resources" ID="3">
+						<Type>0</Type>
+						<Format U="STR">@</Format>
+						<Value Unit="STR"/>
+						<Invisible F="FALSE">0</Invisible>
+						<Label>资源</Label>
+						<DisplayMode>0</DisplayMode>
+					</Prop>
+				</Properties>
+				<ShapeFormat QuickMask="23">
+					<FillFormat Type="Gradient" GradientType="Linear" StopNum="2" Direction="90">
+						<Stop>
+							<Color Value="#FFFAFBFC" ThemeColor="6" Tint="95"/>
+							<Offset>0</Offset>
+						</Stop>
+						<Stop>
+							<Color Value="#FFE9EDF4" ThemeColor="6" Tint="80"/>
+							<Offset>1</Offset>
+						</Stop>
+					</FillFormat>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>4</BeginArrowSize>
+						<EndArrowID>0</EndArrowID>
+						<EndArrowSize>4</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="14" Scale="1" OffsetX="2" OffsetY="2" Angle="0" Blur="0">
+							<Color Value="#14000000"/>
+						</Shadow>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset134 \'cb\'ce\'cc\'e5;}}&#x0D;&#x0A;{\colortbl ;\red0\green0\blue0;}&#x0D;&#x0A;\viewkind4\uc1\pard\li50\ri50\sl240\slmult1\qc\cf1\lang2052\f0\fs20\'b7\'a2\'cb\'cd\'b4\'b4\'bd\'a8\'ca\'a7\'b0\'dc\par&#x0D;&#x0A;\'b5\'bd\'bf\'cd\'bb\'a7\'b6\'cb\par&#x0D;&#x0A;}" ExtendMode="0" X="187" Y="433" Width="88" Height="34">
+						<TextFormat>
+							<TextFormatMask>16384</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF000000" ThemeColor="2"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="Width*1" R="1" M="1">87.6</Width>
+							<Height F="Height*1" R="1" M="2">60</Height>
+							<Angle>0</Angle>
+							<GPinX F="Width*0.5" R="0.5" M="1">43.8</GPinX>
+							<GPinY F="Height*0.5" R="0.5" M="2">30</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">43.8</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">30</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>0</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>1</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X F="Width">87.6</X>
+							<Y F="Height">60</Y>
+						</MoveTo>
+						<LineTo JointType="0">
+							<X F="Width*1" R="1" M="1">87.6</X>
+							<Y F="Height*0" R="0" M="2">0</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X F="Width*0" R="0" M="1">0</X>
+							<Y F="Height*0" R="0" M="2">0</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X F="Width*0" R="0" M="1">0</X>
+							<Y F="Height*1" R="1" M="2">60</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X F="Width*1" R="1" M="1">87.6</X>
+							<Y F="Height*1" R="1" M="2">60</Y>
+						</LineTo>
+					</Geometry>
+				</Geometries>
+			</Shape>
+			<Shape Type="ConnectLine" NameU="ConnectLine" Name="ConnectLine" ID="112">
+				<ConPoints>
+					<BeginX F="PNTX(Parent.LOCPNT(Shape209.PARPNT(Shape209.CPoints.X4,Shape209.CPoints.Y4)))">350</BeginX>
+					<BeginY F="PNTY(Parent.LOCPNT(Shape209.PARPNT(Shape209.CPoints.X4,Shape209.CPoints.Y4)))">92</BeginY>
+					<EndX F="PNTX(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X2,Shape109.CPoints.Y2)))">350</EndX>
+					<EndY F="PNTY(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X2,Shape109.CPoints.Y2)))">150</EndY>
+				</ConPoints>
+				<Transform>
+					<Width F="EndX-BeginX">0</Width>
+					<Height F="EndY-BeginY">58</Height>
+					<Angle F="GUARD(0)">0</Angle>
+					<GPinX F="(BeginX+EndX)*0.5">350</GPinX>
+					<GPinY F="(BeginY+EndY)*0.5">121</GPinY>
+					<LocPinX F="Width*0.5" R="0.5" M="1">0</LocPinX>
+					<LocPinY F="Height*0.5" R="0.5" M="2">29</LocPinY>
+					<FlipX F="GUARD(FALSE)">0</FlipX>
+					<FlipY F="GUARD(FALSE)">0</FlipY>
+					<BeginTag F="Shape209.XTrans">0</BeginTag>
+					<EndTag F="Shape109.XTrans">0</EndTag>
+				</Transform>
+				<Controls>
+					<Control Name="TxtPos1" ID="1">
+						<X>0</X>
+						<Y>20</Y>
+						<DynX F="Controls.TxtPos1.X">0</DynX>
+						<DynY F="Controls.TxtPos1.Y">20</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T1),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+					<Control Name="TxtPos2" ID="2">
+						<X>0</X>
+						<Y>29</Y>
+						<DynX F="Controls.TxtPos2.X">0</DynX>
+						<DynY F="Controls.TxtPos2.Y">29</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T2),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+					<Control Name="TxtPos3" ID="3">
+						<X>0</X>
+						<Y>38</Y>
+						<DynX F="Controls.TxtPos3.X">0</DynX>
+						<DynY F="Controls.TxtPos3.Y">38</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T3),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+				</Controls>
+				<Misc/>
+				<Events/>
+				<ShapeFormat QuickMask="44">
+					<FillFormat/>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>3</BeginArrowSize>
+						<EndArrowID>5</EndArrowID>
+						<EndArrowSize>3</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="0"/>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="" ExtendMode="2" X="333" Y="104" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T1))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T1))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos1.X)">0</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos1.Y)">20</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+					<Text ID="2" Name="T2" Rtf="" ExtendMode="2" X="333" Y="113" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T2))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T2))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos2.X)">0</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos2.Y)">29</GPinY>
+							<LocPinX F="Text.T2.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T2.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+					<Text ID="3" Name="T3" Rtf="" ExtendMode="2" X="333" Y="122" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T3))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T3))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos3.X)">0</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos3.Y)">38</GPinY>
+							<LocPinX F="Text.T3.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T3.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>1</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>0</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X>0</X>
+							<Y>0</Y>
+						</MoveTo>
+						<LineTo JointType="0">
+							<X>0</X>
+							<Y>58</Y>
+						</LineTo>
+					</Geometry>
+				</Geometries>
+				<ShapeLayout>
+					<ConLineJumpStyle>0</ConLineJumpStyle>
+					<ConLineFixCode>0</ConLineFixCode>
+					<ConLineJumpCode>0</ConLineJumpCode>
+					<ConLineJumpDirX>0</ConLineJumpDirX>
+					<ConLineJumpDirY>0</ConLineJumpDirY>
+					<ConLineType>2</ConLineType>
+				</ShapeLayout>
+			</Shape>
+			<Shape Type="ConnectLine" NameU="ConnectLine" Name="ConnectLine" ID="113">
+				<ConPoints>
+					<BeginX F="PNTX(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X1,Shape109.CPoints.Y1)))">275</BeginX>
+					<BeginY F="PNTY(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X1,Shape109.CPoints.Y1)))">195</BeginY>
+					<EndX F="PNTX(Parent.LOCPNT(Shape111.PARPNT(Shape111.CPoints.X2,Shape111.CPoints.Y2)))">231.2</EndX>
+					<EndY F="PNTY(Parent.LOCPNT(Shape111.PARPNT(Shape111.CPoints.X2,Shape111.CPoints.Y2)))">420</EndY>
+				</ConPoints>
+				<Transform>
+					<Width F="EndX-BeginX">-43.8</Width>
+					<Height F="EndY-BeginY">225</Height>
+					<Angle F="GUARD(0)">0</Angle>
+					<GPinX F="(BeginX+EndX)*0.5">253.1</GPinX>
+					<GPinY F="(BeginY+EndY)*0.5">307.5</GPinY>
+					<LocPinX F="Width*0.5" R="0.5" M="1">-21.9</LocPinX>
+					<LocPinY F="Height*0.5" R="0.5" M="2">112.5</LocPinY>
+					<FlipX F="GUARD(FALSE)">0</FlipX>
+					<FlipY F="GUARD(FALSE)">0</FlipY>
+					<BeginTag F="Shape109.XTrans">0</BeginTag>
+					<EndTag F="Shape111.XTrans">0</EndTag>
+				</Transform>
+				<Controls>
+					<Control Name="TxtPos1" ID="1">
+						<X>-20</X>
+						<Y>0</Y>
+						<DynX F="Controls.TxtPos1.X">-20</DynX>
+						<DynY F="Controls.TxtPos1.Y">0</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T1),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+					<Control Name="TxtPos2" ID="2">
+						<X>-43.8</X>
+						<Y>90.6</Y>
+						<DynX F="Controls.TxtPos2.X">-43.8</DynX>
+						<DynY F="Controls.TxtPos2.Y">90.6</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T2),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+					<Control Name="TxtPos3" ID="3">
+						<X>-43.8</X>
+						<Y>205</Y>
+						<DynX F="Controls.TxtPos3.X">-43.8</DynX>
+						<DynY F="Controls.TxtPos3.Y">205</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T3),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+				</Controls>
+				<Misc/>
+				<Events/>
+				<ShapeFormat QuickMask="44">
+					<FillFormat/>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>3</BeginArrowSize>
+						<EndArrowID>5</EndArrowID>
+						<EndArrowSize>3</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="0"/>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="" ExtendMode="2" X="238" Y="187" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T1))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T1))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos1.X)">-20</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos1.Y)">0</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+					<Text ID="2" Name="T2" Rtf="" ExtendMode="2" X="214" Y="278" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T2))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T2))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos2.X)">-43.8</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos2.Y)">90.6</GPinY>
+							<LocPinX F="Text.T2.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T2.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+					<Text ID="3" Name="T3" Rtf="" ExtendMode="2" X="214" Y="392" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T3))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T3))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos3.X)">-43.8</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos3.Y)">205</GPinY>
+							<LocPinX F="Text.T3.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T3.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>1</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>0</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X>0</X>
+							<Y>0</Y>
+						</MoveTo>
+						<LineTo JointType="0">
+							<X>-43.8</X>
+							<Y>0</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X>-43.8</X>
+							<Y>225</Y>
+						</LineTo>
+					</Geometry>
+				</Geometries>
+				<ShapeLayout>
+					<ConLineJumpStyle>0</ConLineJumpStyle>
+					<ConLineFixCode>0</ConLineFixCode>
+					<ConLineJumpCode>0</ConLineJumpCode>
+					<ConLineJumpDirX>0</ConLineJumpDirX>
+					<ConLineJumpDirY>0</ConLineJumpDirY>
+					<ConLineType>2</ConLineType>
+				</ShapeLayout>
+			</Shape>
+			<Shape Type="ConnectLine" NameU="ConnectLine" Name="ConnectLine" ID="114">
+				<ConPoints>
+					<BeginX F="PNTX(Parent.LOCPNT(Shape111.PARPNT(Shape111.CPoints.X4,Shape111.CPoints.Y4)))">231.2</BeginX>
+					<BeginY F="PNTY(Parent.LOCPNT(Shape111.PARPNT(Shape111.CPoints.X4,Shape111.CPoints.Y4)))">480</BeginY>
+					<EndX F="PNTX(Parent.LOCPNT(Shape213.PARPNT(Shape213.CPoints.X2,Shape213.CPoints.Y2)))">350</EndX>
+					<EndY F="PNTY(Parent.LOCPNT(Shape213.PARPNT(Shape213.CPoints.X2,Shape213.CPoints.Y2)))">606</EndY>
+				</ConPoints>
+				<Transform>
+					<Width F="EndX-BeginX">118.8</Width>
+					<Height F="EndY-BeginY">126</Height>
+					<Angle F="GUARD(0)">0</Angle>
+					<GPinX F="(BeginX+EndX)*0.5">290.6</GPinX>
+					<GPinY F="(BeginY+EndY)*0.5">543</GPinY>
+					<LocPinX F="Width*0.5" R="0.5" M="1">59.4</LocPinX>
+					<LocPinY F="Height*0.5" R="0.5" M="2">62.9999</LocPinY>
+					<FlipX F="GUARD(FALSE)">0</FlipX>
+					<FlipY F="GUARD(FALSE)">0</FlipY>
+					<BeginTag F="Shape111.XTrans">0</BeginTag>
+					<EndTag F="Shape213.XTrans">0</EndTag>
+				</Transform>
+				<Controls>
+					<Control Name="TxtPos1" ID="1">
+						<X>0</X>
+						<Y>20</Y>
+						<DynX F="Controls.TxtPos1.X">0</DynX>
+						<DynY F="Controls.TxtPos1.Y">20</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T1),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+					<Control Name="TxtPos2" ID="2">
+						<X>28.4001</X>
+						<Y>93.9999</Y>
+						<DynX F="Controls.TxtPos2.X">28.4001</DynX>
+						<DynY F="Controls.TxtPos2.Y">93.9999</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T2),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+					<Control Name="TxtPos3" ID="3">
+						<X>118.8</X>
+						<Y>106</Y>
+						<DynX F="Controls.TxtPos3.X">118.8</DynX>
+						<DynY F="Controls.TxtPos3.Y">106</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T3),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+				</Controls>
+				<Misc/>
+				<Events/>
+				<ShapeFormat QuickMask="44">
+					<FillFormat/>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>3</BeginArrowSize>
+						<EndArrowID>5</EndArrowID>
+						<EndArrowSize>3</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="0"/>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="" ExtendMode="2" X="214" Y="492" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T1))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T1))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos1.X)">0</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos1.Y)">20</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+					<Text ID="2" Name="T2" Rtf="" ExtendMode="2" X="243" Y="566" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T2))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T2))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos2.X)">28.4001</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos2.Y)">93.9999</GPinY>
+							<LocPinX F="Text.T2.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T2.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+					<Text ID="3" Name="T3" Rtf="" ExtendMode="2" X="333" Y="578" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T3))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T3))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos3.X)">118.8</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos3.Y)">106</GPinY>
+							<LocPinX F="Text.T3.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T3.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>1</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>0</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X>0</X>
+							<Y>0</Y>
+						</MoveTo>
+						<LineTo JointType="0">
+							<X>0</X>
+							<Y>93.9999</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X>118.8</X>
+							<Y>93.9999</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X>118.8</X>
+							<Y>126</Y>
+						</LineTo>
+					</Geometry>
+				</Geometries>
+				<ShapeLayout>
+					<ConLineJumpStyle>0</ConLineJumpStyle>
+					<ConLineFixCode>0</ConLineFixCode>
+					<ConLineJumpCode>0</ConLineJumpCode>
+					<ConLineJumpDirX>0</ConLineJumpDirX>
+					<ConLineJumpDirY>0</ConLineJumpDirY>
+					<ConLineType>2</ConLineType>
+				</ShapeLayout>
+			</Shape>
+			<Shape Type="ConnectLine" NameU="ConnectLine" Name="ConnectLine" ID="115">
+				<ConPoints>
+					<BeginX F="PNTX(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X3,Shape109.CPoints.Y3)))">425</BeginX>
+					<BeginY F="PNTY(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X3,Shape109.CPoints.Y3)))">195</BeginY>
+					<EndX F="AUTOENDPNT(BeginTag,EndTag)">483.8</EndX>
+					<EndY F="AUTOENDPNT(BeginTag,EndTag)">324</EndY>
+				</ConPoints>
+				<Transform>
+					<Width F="EndX-BeginX">58.8</Width>
+					<Height F="EndY-BeginY">129</Height>
+					<Angle F="GUARD(0)">0</Angle>
+					<GPinX F="(BeginX+EndX)*0.5">454.4</GPinX>
+					<GPinY F="(BeginY+EndY)*0.5">259.5</GPinY>
+					<LocPinX F="Width*0.5" R="0.5" M="1">29.4</LocPinX>
+					<LocPinY F="Height*0.5" R="0.5" M="2">64.5</LocPinY>
+					<FlipX F="GUARD(FALSE)">0</FlipX>
+					<FlipY F="GUARD(FALSE)">0</FlipY>
+					<BeginTag F="Shape109.XTrans">0</BeginTag>
+					<EndTag F="Shape110.XTrans">1</EndTag>
+				</Transform>
+				<Controls>
+					<Control Name="TxtPos1" ID="1">
+						<X>20</X>
+						<Y>0</Y>
+						<DynX F="Controls.TxtPos1.X">20</DynX>
+						<DynY F="Controls.TxtPos1.Y">0</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T1),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+					<Control Name="TxtPos2" ID="2">
+						<X>58.8</X>
+						<Y>35.1</Y>
+						<DynX F="Controls.TxtPos2.X">58.8</DynX>
+						<DynY F="Controls.TxtPos2.Y">35.1</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T2),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+					<Control Name="TxtPos3" ID="3">
+						<X>58.8</X>
+						<Y>109</Y>
+						<DynX F="Controls.TxtPos3.X">58.8</DynX>
+						<DynY F="Controls.TxtPos3.Y">109</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T3),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+				</Controls>
+				<Misc/>
+				<Events/>
+				<ShapeFormat QuickMask="44">
+					<FillFormat/>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>3</BeginArrowSize>
+						<EndArrowID>5</EndArrowID>
+						<EndArrowSize>3</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="0"/>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="" ExtendMode="2" X="428" Y="187" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T1))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T1))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos1.X)">20</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos1.Y)">0</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+					<Text ID="2" Name="T2" Rtf="" ExtendMode="2" X="467" Y="222" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T2))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T2))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos2.X)">58.8</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos2.Y)">35.1</GPinY>
+							<LocPinX F="Text.T2.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T2.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+					<Text ID="3" Name="T3" Rtf="" ExtendMode="2" X="467" Y="296" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T3))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T3))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos3.X)">58.8</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos3.Y)">109</GPinY>
+							<LocPinX F="Text.T3.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T3.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>1</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>0</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X>0</X>
+							<Y>0</Y>
+						</MoveTo>
+						<LineTo JointType="0">
+							<X>58.8</X>
+							<Y>0</Y>
+						</LineTo>
+						<LineTo JointType="0">
+							<X>58.8</X>
+							<Y>129</Y>
+						</LineTo>
+					</Geometry>
+				</Geometries>
+				<ShapeLayout>
+					<ConLineJumpStyle>0</ConLineJumpStyle>
+					<ConLineFixCode>1</ConLineFixCode>
+					<ConLineJumpCode>0</ConLineJumpCode>
+					<ConLineJumpDirX>0</ConLineJumpDirX>
+					<ConLineJumpDirY>0</ConLineJumpDirY>
+					<ConLineType>2</ConLineType>
+				</ShapeLayout>
+			</Shape>
+			<Shape Type="ConnectLine" NameU="ConnectLine" Name="ConnectLine" ID="116">
+				<ConPoints>
+					<BeginX F="PNTX(Parent.LOCPNT(Shape110.PARPNT(Shape110.CPoints.X4,Shape110.CPoints.Y4)))">483.8</BeginX>
+					<BeginY F="PNTY(Parent.LOCPNT(Shape110.PARPNT(Shape110.CPoints.X4,Shape110.CPoints.Y4)))">384</BeginY>
+					<EndX F="PNTX(Parent.LOCPNT(Shape129.PARPNT(Shape129.CPoints.X2,Shape129.CPoints.Y2)))">483.8</EndX>
+					<EndY F="PNTY(Parent.LOCPNT(Shape129.PARPNT(Shape129.CPoints.X2,Shape129.CPoints.Y2)))">404</EndY>
+				</ConPoints>
+				<Transform>
+					<Width F="EndX-BeginX">0</Width>
+					<Height F="EndY-BeginY">20</Height>
+					<Angle F="GUARD(0)">0</Angle>
+					<GPinX F="(BeginX+EndX)*0.5">483.8</GPinX>
+					<GPinY F="(BeginY+EndY)*0.5">394</GPinY>
+					<LocPinX F="Width*0.5" R="0.5" M="1">0</LocPinX>
+					<LocPinY F="Height*0.5" R="0.5" M="2">10</LocPinY>
+					<FlipX F="GUARD(FALSE)">0</FlipX>
+					<FlipY F="GUARD(FALSE)">0</FlipY>
+					<BeginTag F="Shape110.XTrans">1</BeginTag>
+					<EndTag F="Shape129.XTrans">1</EndTag>
+				</Transform>
+				<Controls>
+					<Control Name="TxtPos1" ID="1">
+						<X>0</X>
+						<Y>20</Y>
+						<DynX F="Controls.TxtPos1.X">0</DynX>
+						<DynY F="Controls.TxtPos1.Y">20</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T1),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+					<Control Name="TxtPos2" ID="2">
+						<X>0</X>
+						<Y>10</Y>
+						<DynX F="Controls.TxtPos2.X">0</DynX>
+						<DynY F="Controls.TxtPos2.Y">10</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T2),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+					<Control Name="TxtPos3" ID="3">
+						<X>0</X>
+						<Y>0</Y>
+						<DynX F="Controls.TxtPos3.X">0</DynX>
+						<DynY F="Controls.TxtPos3.Y">0</DynY>
+						<XBehaviour U="INT">2</XBehaviour>
+						<YBehaviour U="INT">2</YBehaviour>
+						<CanGlue>0</CanGlue>
+						<AutoSnap>0</AutoSnap>
+						<Disabled F="IFV(ISEMPTY(Text.T3),TRUE,FALSE)">1</Disabled>
+						<Prompt/>
+					</Control>
+				</Controls>
+				<Misc/>
+				<Events/>
+				<ShapeFormat QuickMask="44">
+					<FillFormat/>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>3</BeginArrowSize>
+						<EndArrowID>5</EndArrowID>
+						<EndArrowSize>3</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="0"/>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="" ExtendMode="2" X="467" Y="396" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T1))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T1))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos1.X)">0</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos1.Y)">20</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+					<Text ID="2" Name="T2" Rtf="" ExtendMode="2" X="467" Y="386" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T2))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T2))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos2.X)">0</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos2.Y)">10</GPinY>
+							<LocPinX F="Text.T2.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T2.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+					<Text ID="3" Name="T3" Rtf="" ExtendMode="2" X="467" Y="376" Width="34" Height="17">
+						<TextFormat>
+							<TextFormatMask>32768</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="GUARD(TEXTWIDTH(Text.T3))">0</Width>
+							<Height F="GUARD(TEXTHEIGHT(Text.T3))">16</Height>
+							<Angle>0</Angle>
+							<GPinX F="GUARD(Controls.TxtPos3.X)">0</GPinX>
+							<GPinY F="GUARD(Controls.TxtPos3.Y)">0</GPinY>
+							<LocPinX F="Text.T3.Width*0.5">0</LocPinX>
+							<LocPinY F="Text.T3.Height*0.5">8</LocPinY>
+						</Transform>
+						<TxtField U="STR"/>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>1</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>0</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X>0</X>
+							<Y>0</Y>
+						</MoveTo>
+						<LineTo JointType="0">
+							<X>0</X>
+							<Y>20</Y>
+						</LineTo>
+					</Geometry>
+				</Geometries>
+				<ShapeLayout>
+					<ConLineJumpStyle>0</ConLineJumpStyle>
+					<ConLineFixCode>0</ConLineFixCode>
+					<ConLineJumpCode>0</ConLineJumpCode>
+					<ConLineJumpDirX>0</ConLineJumpDirX>
+					<ConLineJumpDirY>0</ConLineJumpDirY>
+					<ConLineType>2</ConLineType>
+				</ShapeLayout>
+			</Shape>
+			<Shape Type="Shape" NameU="Yes or No" Name="是或否" ID="117">
+				<Transform>
+					<Width>48</Width>
+					<Height>32</Height>
+					<Angle>0</Angle>
+					<GPinX>231.2</GPinX>
+					<GPinY>268</GPinY>
+					<LocPinX F="Width*0.5" R="0.5" M="1">24</LocPinX>
+					<LocPinY F="Height*0.5" R="0.5" M="2">16</LocPinY>
+					<FlipX>0</FlipX>
+					<FlipY>0</FlipY>
+				</Transform>
+				<Variants>
+					<Variant Name="Yes" ID="1">
+						<Value Unit="BOOL">FALSE</Value>
+						<Prompt U="STR"/>
+					</Variant>
+					<Variant Name="Text" ID="2">
+						<Value F='IFV(Var.Yes,"Yes","No")' Unit="STR">No</Value>
+						<Prompt U="STR"/>
+					</Variant>
+				</Variants>
+				<CPoints>
+					<CPoint Name="Pt1" ID="1" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">24</X>
+						<Y F="Height*0.5" R="0.5" M="2">16</Y>
+					</CPoint>
+					<CPoint Name="Pt2" ID="2" Type="0">
+						<X>-0</X>
+						<Y F="Height*0.5" R="0.5" M="2">16</Y>
+					</CPoint>
+					<CPoint Name="Pt3" ID="3" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">24</X>
+						<Y>-0</Y>
+					</CPoint>
+					<CPoint Name="Pt4" ID="4" Type="0">
+						<X F="Width">48</X>
+						<Y F="Height*0.5" R="0.5" M="2">16</Y>
+					</CPoint>
+					<CPoint Name="Pt5" ID="5" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">24</X>
+						<Y F="Height">32</Y>
+					</CPoint>
+				</CPoints>
+				<Actions>
+					<Act Name="A1" ID="1">
+						<Action F='NOTV("Var.Yes")+SETF("Text.T1.TxtField", Var.Text)'>2</Action>
+						<Menu F='IFV(Var.是,"否","是")' U="STR">否</Menu>
+						<Checked>0</Checked>
+						<Disabled>0</Disabled>
+						<Invisible>0</Invisible>
+						<Timer>0</Timer>
+					</Act>
+				</Actions>
+				<Misc>
+					<ObjectType>2</ObjectType>
+				</Misc>
+				<Events/>
+				<ShapeFormat QuickMask="23">
+					<FillFormat Type="Gradient" GradientType="Linear" StopNum="2" Direction="90">
+						<Stop>
+							<Color Value="#FFFAFBFC" ThemeColor="6" Tint="95"/>
+							<Offset>0</Offset>
+						</Stop>
+						<Stop>
+							<Color Value="#FFE9EDF4" ThemeColor="6" Tint="80"/>
+							<Offset>1</Offset>
+						</Stop>
+					</FillFormat>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>4</BeginArrowSize>
+						<EndArrowID>0</EndArrowID>
+						<EndArrowSize>4</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="14" Scale="1" OffsetX="2" OffsetY="2" Angle="0" Blur="0">
+							<Color Value="#14000000"/>
+						</Shadow>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset134 \'cb\'ce\'cc\'e5;}}&#x0D;&#x0A;{\colortbl ;\red48\green48\blue48;}&#x0D;&#x0A;\viewkind4\uc1\pard\li50\ri50\sl240\slmult1\qc\cf1\highlight0\lang2052\f0\fs20 No\par&#x0D;&#x0A;}" ExtendMode="0" X="207" Y="260" Width="48" Height="16">
+						<TextFormat>
+							<TextFormatMask>0</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="Width">48</Width>
+							<Height F="Height">32</Height>
+							<Angle>0</Angle>
+							<GPinX F="Width*0.5" R="0.5" M="1">24</GPinX>
+							<GPinY F="Height*0.5" R="0.5" M="2">16</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">24</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">16</LocPinY>
+						</Transform>
+						<TxtField U="STR">No</TxtField>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>0</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>1</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X>0</X>
+							<Y F="Height*0.5" R="0.5" M="2">16</Y>
+						</MoveTo>
+						<CurveTo JointType="0">
+							<X F="Width*0.5" R="0.5" M="1">24</X>
+							<Y>0</Y>
+							<A>0</A>
+							<B F="Height*0.223858" R="0.223858" M="2">7.16346</B>
+							<C F="Width*0.223858" R="0.223858" M="1">10.7452</C>
+							<D>0</D>
+						</CurveTo>
+						<CurveTo JointType="0">
+							<X F="Width">48</X>
+							<Y F="Height*0.5" R="0.5" M="2">16</Y>
+							<A F="Width*0.776142" R="0.776142" M="1">37.2548</A>
+							<B>0</B>
+							<C F="Width">48</C>
+							<D F="Height*0.223858" R="0.223858" M="2">7.16346</D>
+						</CurveTo>
+						<CurveTo JointType="0">
+							<X F="Width*0.5" R="0.5" M="1">24</X>
+							<Y F="Height">32</Y>
+							<A F="Width">48</A>
+							<B F="Height*0.776142" R="0.776142" M="2">24.8366</B>
+							<C F="Width*0.776142" R="0.776142" M="1">37.2548</C>
+							<D F="Height">32</D>
+						</CurveTo>
+						<CurveTo JointType="0">
+							<X>0</X>
+							<Y F="Height*0.5" R="0.5" M="2">16</Y>
+							<A F="Width*0.223858" R="0.223858" M="1">10.7452</A>
+							<B F="Height">32</B>
+							<C>0</C>
+							<D F="Height*0.776142" R="0.776142" M="2">24.8366</D>
+						</CurveTo>
+					</Geometry>
+				</Geometries>
+			</Shape>
+			<Shape Type="Shape" NameU="Yes or No" Name="是或否" ID="119">
+				<Transform>
+					<Width>48</Width>
+					<Height>32</Height>
+					<Angle>0</Angle>
+					<GPinX>483.8</GPinX>
+					<GPinY>268</GPinY>
+					<LocPinX F="Width*0.5" R="0.5" M="1">24</LocPinX>
+					<LocPinY F="Height*0.5" R="0.5" M="2">16</LocPinY>
+					<FlipX>0</FlipX>
+					<FlipY>0</FlipY>
+				</Transform>
+				<Variants>
+					<Variant Name="Yes" ID="1">
+						<Value Unit="BOOL">TRUE</Value>
+						<Prompt U="STR"/>
+					</Variant>
+					<Variant Name="Text" ID="2">
+						<Value F='IFV(Var.Yes,"Yes","No")' Unit="STR">Yes</Value>
+						<Prompt U="STR"/>
+					</Variant>
+				</Variants>
+				<CPoints>
+					<CPoint Name="Pt1" ID="1" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">24</X>
+						<Y F="Height*0.5" R="0.5" M="2">16</Y>
+					</CPoint>
+					<CPoint Name="Pt2" ID="2" Type="0">
+						<X>-0</X>
+						<Y F="Height*0.5" R="0.5" M="2">16</Y>
+					</CPoint>
+					<CPoint Name="Pt3" ID="3" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">24</X>
+						<Y>-0</Y>
+					</CPoint>
+					<CPoint Name="Pt4" ID="4" Type="0">
+						<X F="Width">48</X>
+						<Y F="Height*0.5" R="0.5" M="2">16</Y>
+					</CPoint>
+					<CPoint Name="Pt5" ID="5" Type="0">
+						<X F="Width*0.5" R="0.5" M="1">24</X>
+						<Y F="Height">32</Y>
+					</CPoint>
+				</CPoints>
+				<Actions>
+					<Act Name="A1" ID="1">
+						<Action F='NOTV("Var.Yes")+SETF("Text.T1.TxtField", Var.Text)'>2</Action>
+						<Menu F='IFV(Var.是,"否","是")' U="STR">否</Menu>
+						<Checked>0</Checked>
+						<Disabled>0</Disabled>
+						<Invisible>0</Invisible>
+						<Timer>0</Timer>
+					</Act>
+				</Actions>
+				<Misc>
+					<ObjectType>2</ObjectType>
+				</Misc>
+				<Events/>
+				<ShapeFormat QuickMask="23">
+					<FillFormat Type="Gradient" GradientType="Linear" StopNum="2" Direction="90">
+						<Stop>
+							<Color Value="#FFFAFBFC" ThemeColor="6" Tint="95"/>
+							<Offset>0</Offset>
+						</Stop>
+						<Stop>
+							<Color Value="#FFE9EDF4" ThemeColor="6" Tint="80"/>
+							<Offset>1</Offset>
+						</Stop>
+					</FillFormat>
+					<LineFormat>
+						<LineWeight>1</LineWeight>
+						<LineCap>0</LineCap>
+						<LinePattern>1</LinePattern>
+						<Rounding>1</Rounding>
+						<BeginArrowID>0</BeginArrowID>
+						<BeginArrowSize>4</BeginArrowSize>
+						<EndArrowID>0</EndArrowID>
+						<EndArrowSize>4</EndArrowSize>
+						<LineFill Type="Solid">
+							<Color Value="#FF385D8A" ThemeColor="6" Shade="50"/>
+						</LineFill>
+					</LineFormat>
+					<EffectFormat>
+						<Shadow Mode="14" Scale="1" OffsetX="2" OffsetY="2" Angle="0" Blur="0">
+							<Color Value="#14000000"/>
+						</Shadow>
+					</EffectFormat>
+				</ShapeFormat>
+				<Texts>
+					<Text ID="1" Name="T1" Rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset134 \'cb\'ce\'cc\'e5;}}&#x0D;&#x0A;{\colortbl ;\red48\green48\blue48;}&#x0D;&#x0A;\viewkind4\uc1\pard\li50\ri50\sl240\slmult1\qc\cf1\highlight0\lang2052\f0\fs20 Yes\par&#x0D;&#x0A;}" ExtendMode="0" X="460" Y="260" Width="48" Height="16">
+						<TextFormat>
+							<TextFormatMask>0</TextFormatMask>
+							<FontFamily>宋体</FontFamily>
+							<FontWeight>400</FontWeight>
+							<FontHeight>10</FontHeight>
+							<FontItalic>FALSE</FontItalic>
+							<FontUnderline>FALSE</FontUnderline>
+							<FontStrikeout>FALSE</FontStrikeout>
+							<AlignHorizontal>Center</AlignHorizontal>
+							<AlignVertical>Middle</AlignVertical>
+							<Color Value="#FF303030"/>
+							<FontOffset>0</FontOffset>
+							<FontBackColor>#FFFEFD</FontBackColor>
+							<FontBullet>0</FontBullet>
+							<LeftOffset>0</LeftOffset>
+							<StartIndent>50</StartIndent>
+							<RightIndent>50</RightIndent>
+							<LineSpace>20</LineSpace>
+							<SpaceBefore>0</SpaceBefore>
+							<SpaceAfter>0</SpaceAfter>
+						</TextFormat>
+						<Transform>
+							<Width F="Width">48</Width>
+							<Height F="Height">32</Height>
+							<Angle>0</Angle>
+							<GPinX F="Width*0.5" R="0.5" M="1">24</GPinX>
+							<GPinY F="Height*0.5" R="0.5" M="2">16</GPinY>
+							<LocPinX F="Text.T1.Width*0.5">24</LocPinX>
+							<LocPinY F="Text.T1.Height*0.5">16</LocPinY>
+						</Transform>
+						<TxtField U="STR">Yes</TxtField>
+					</Text>
+				</Texts>
+				<Geometries>
+					<Geometry>
+						<NoFill>0</NoFill>
+						<NoLine>0</NoLine>
+						<Closed>1</Closed>
+						<NoShow>0</NoShow>
+						<NoSnap>1</NoSnap>
+						<MoveTo JointType="0">
+							<X>0</X>
+							<Y F="Height*0.5" R="0.5" M="2">16</Y>
+						</MoveTo>
+						<CurveTo JointType="0">
+							<X F="Width*0.5" R="0.5" M="1">24</X>
+							<Y>0</Y>
+							<A>0</A>
+							<B F="Height*0.223858" R="0.223858" M="2">7.16346</B>
+							<C F="Width*0.223858" R="0.223858" M="1">10.7452</C>
+							<D>0</D>
+						</CurveTo>
+						<CurveTo JointType="0">
+							<X F="Width">48</X>
+							<Y F="Height*0.5" R="0.5" M="2">16</Y>
+							<A F="Width*0.776142" R="0.776142" M="1">37.2548</A>
+							<B>0</B>
+							<C F="Width">48</C>
+							<D F="Height*0.223858" R="0.223858" M="2">7.16346</D>
+						</CurveTo>
+						<CurveTo JointType="0">
+							<X F="Width*0.5" R="0.5" M="1">24</X>
+							<Y F="Height">32</Y>
+							<A F="Width">48</A>
+							<B F="Height*0.776142" R="0.776142" M="2">24.8366</B>
+							<C F="Width*0.776142" R="0.776142" M="1">37.2548</C>
+							<D F="Height">32</D>
+						</CurveTo>
+						<CurveTo JointType="0">
+							<X>0</X>
+							<Y F="Height*0.5" R="0.5" M="2">16</Y>
+							<A F="Width*0.223858" R="0.223858" M="1">10.7452</A>
+							<B F="Height">32</B>
+							<C>0</C>
+							<D F="Height*0.776142" R="0.776142" M="2">24.8366</D>
+						</CurveTo>
+					</Geometry>
+				</Geometries>
+			</Shape>
+		</Layer>
+		<Connects>
+			<Connect FromShape="130" FromPart="9" FromName="" ToShape="129" ToPart="104" ToName="Pt4"/>
+			<Connect FromShape="130" FromPart="12" FromName="" ToShape="128" ToPart="3" ToName=""/>
+			<Connect FromShape="131" FromPart="9" FromName="" ToShape="128" ToPart="104" ToName="Pt4"/>
+			<Connect FromShape="131" FromPart="12" FromName="" ToShape="213" ToPart="102" ToName=""/>
+			<Connect FromShape="112" FromPart="9" FromName="" ToShape="209" ToPart="104" ToName="Pt4"/>
+			<Connect FromShape="112" FromPart="12" FromName="" ToShape="109" ToPart="102" ToName="Pt2"/>
+			<Connect FromShape="113" FromPart="9" FromName="" ToShape="109" ToPart="101" ToName="Pt1"/>
+			<Connect FromShape="113" FromPart="12" FromName="" ToShape="111" ToPart="102" ToName="Pt2"/>
+			<Connect FromShape="114" FromPart="9" FromName="" ToShape="111" ToPart="104" ToName="Pt4"/>
+			<Connect FromShape="114" FromPart="12" FromName="" ToShape="213" ToPart="102" ToName="Pt2"/>
+			<Connect FromShape="115" FromPart="9" FromName="" ToShape="109" ToPart="103" ToName="Pt3"/>
+			<Connect FromShape="115" FromPart="12" FromName="" ToShape="110" ToPart="3" ToName=""/>
+			<Connect FromShape="116" FromPart="9" FromName="" ToShape="110" ToPart="104" ToName="Pt4"/>
+			<Connect FromShape="116" FromPart="12" FromName="" ToShape="129" ToPart="102" ToName="Pt2"/>
+		</Connects>
+	</Page>
+	<Preview>
+		<![CDATA[R0lGODlhlgBqAPcAAHt9fn1+gYCBhISFh4WGh4WHiIaHiIeIioiJi4uMj4yNj46QkY+QkpCSlZSVl5SWl5WWmpaXmZeZnZmanJmanpqbnZucnpyeoJ6foZ6goZ6go6CipqKjpaKkpqSmqKSmqqanq6eoqqaprKmqrKmrrqqsrqytr6qssKyusKyusq6wtLCzt7Kzt7GzuLK0uLO2urS2ubS2ura3ubW3vLW4vLa4vLe6vrm7vbi6vrq7vru8v6++0Lu8wLy+wLy+wr7Awr3AxL7AxL7BxrHA0bbE1LvH18DCxcDCx8LDxsPExsHDyMPEyMLFysPGy8TFycTGyMTHy8bHysXIzcfJzMbJzsfKz8jJzcjKzcjKz8rLz8rMzsTP3MnL0MrM0MzO0s7Q0s7R1MnT39DS1dHT1tDT2NHU2NPV2NLV2tLW29TW2dTW2tbY29XY3NfZ3Nfa3tja3s7X4tDY49La5NPb5tPc5dXc5dXc5tbd5tbe59jb4Nnc4drc4Nre49je59vf5Nrf59ze4dzf5Nje6N/h497g5N7h5t/i59ng6Nnh6trg6Nvi6tzi6t7j693j7N3k697k697k7ODi5uDk6eLk6ODl7ODm7eDm7uLm7OLn7uTm6uLo7uXo7OTo7ufp7Obp7ufq7+rq6unr7+rr7uTp8OXq8OXq8ubq8Ofs8ejr8Ons8Ojs8urt8uru8unt9Ovv9Ozu8O3v8uzv9O7w8uzw9O3x9u7w9O7x9+/y9vDx8/Ly8vDx9PDy9fDy9vH09/L09vDz+PH0+PL0+PT1+PT2+PT2+vb3+Pb3+vb4+vj5+vj6+/n6/Pr7/Pv8/f39/v7+/gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAlgBqAAAI/wBB5RpIsKDBgwgTKlzIsKHDhxAjNhTorKLFixgzatzIsaPHjyBDihz5cSDJkyhTqlzJcqPJljBjypxJ8iXNmzhztrSps6fPnxp5Ah1K9KbQokiTpjza8xanp5xINVNKNSTTnL1YDfqSZA0xS1XDdryKU9UsLz4+QLmVSKzbjGRxVsJzJ86dO7Xe6q0YV6epvYCd9c35N7DewTgLG3aL+KbixWEb03wMmarkmZQrJ70cc1gRzZFzIQ2madQp0JZFD2XGyRUyZMQw8UKNlLPKVZqO6d49S1My2kNtnwxWiZevTr5ewdolKhixUZmBG1Wdk5kmVcOG8XJgxMSIHAgAZf8HRumWdJ3COWoyxd4UpkPB4teq5WVSJECZxoTiFT+YKjvtBTjMeSyltxFlsTRyyy8s8ABCEDD4cAQAXaTwyy+aJIKMRtERKJKBHGqkiSVluAHGG3mw4QYXl+jRSh+ycNShhyCBmFGHxzhCCi089kjLIZd4NCONHtmI0ZCxIOLKkq5A8seGQhKJkpEXDVmRJY2UckeMIFkpZVDUweSlM8dwMtKYX15EZUWqyHHMTM2oQgeUadYYpkq8WDLMMaqYCVMtmBBzDHt12gkTJMPAQIh2frLUSCZarPHKLKwUWuSdKSl44i2mpALTIrOowQYqmORlKUdUIrOIHXPcESRMwyj/wuodn5w6FqYrNTqTrraCiVlivd76q2PBooqrSmiSlGyda1a0LEe+BCjHDgHOUqxFzTrz7EacKOPtt+BSci1fx6a0rYi77CILLrL4MowsugjDyLiClYvSuRlhckAEA3jAgAY3KOABBovQmy2+GFmiRiRWeLFEGoR4sccYbY17MEyV3NIAFkqQoEIAFCRwyyEG23sSwhdBQosNUvAhBBo1NAEFLYKUPCxLkDCpM5N42CwTyhaRksjQQ8NBdCJ9+BwT0AfSi9HFLSFzy9S3LEIE1bcMaLHJymLMy9dgh13xtSAu018wpgxxttYn5XbMMMUYM4wwxWQ379YrVTLL3nz3/90zSpos8AMHFpRAQAUFRKFDwXirxMncdA9jzNtvM36SJXuYUcskZmSxhhGERKKI0oCjkMQDSFygQAgTdDCC5SRVcgIOGpTBhgQ1CEBCDCQ3npImarzhgxlT8KDFHmqYMTZJkBxxBA1VBEIDFSIAcUTNvqNkCS+eQJCCBzikcEEgvGB/Us476/w32Vx3ZAktntQwwwt+FHKCHrSsTxImgvTfPxz+E0QdSHeSSqRPZ3ZYmtPU1D6OkKIPEIQgHCLYhzgocIHkuplMXLEFDGbwZ5+qhAhHSEI5EJAlTHOG23bDwmPcjX0aVIkmStCDDDwhBAYowQS0IAPYBQtqLLHEF7HEoAMwRAEFTriCFtrgw14BcSWW+IUhPHACF/igBh3YxC+W98MGhiSFlLCFJFqQAhecgQwbkIQtzFesJ6oEfQd0hf66GMOUQOIueIQDHutywpWk8EYerFcdxRTIbFUiQIhE5CESycj2+KKQXhxkIIWVlD/SESm+6OAkPxRJliRDEyMKAyittclLEcUSxPiCDCrwBGLkppSUBEolbEGGFTAhELZYRDFgaSyiLOMRR0tErXhu6ZJOEjM4xjzmT7KlTJgws5kFSiY0c/LMaS5FmtakSTWzWRNscjMm2/ymVbwpzmiWMzXnVEo409lLdhZlne6ECznjORJ40hNb87ynofTpE3vq05/3BCg9BRpPgrozFwKRiEIXytCGOvShCAFFQAAAOw==]]>
+	</Preview>
+</Document>
+
