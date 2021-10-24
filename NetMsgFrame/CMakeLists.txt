@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+add_subdirectory(SourceServer)
+add_subdirectory(MediumServer)
+add_subdirectory(EndServer)
+add_subdirectory(UnitTest)
